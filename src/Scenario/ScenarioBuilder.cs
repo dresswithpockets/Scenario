@@ -9,10 +9,14 @@ namespace Scenario
 {
     public class ScenarioBuilder : IScenarioBuilder
     {
-        public IServiceCollection Services { get; } = new ServiceCollection();
+        public IServiceCollection Services { get; }
 
         private readonly List<(Func<IServiceScope, Task<object?>> action, Action<object?>? callback)> _scopedActions =
             new();
+        
+        public ScenarioBuilder() => Services = new ScenarioCollection();
+        
+        public ScenarioBuilder(IServiceCollection serviceCollection) => Services = serviceCollection;
 
         public IScenarioBuilder Use(Action<IServiceCollection> configure)
         {
