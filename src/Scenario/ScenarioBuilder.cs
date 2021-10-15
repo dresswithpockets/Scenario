@@ -14,7 +14,7 @@ namespace Scenario
         private readonly List<(Func<IServiceScope, Task<object?>> action, Action<object?>? callback)> _scopedActions =
             new();
         
-        public ScenarioBuilder() => Services = new ScenarioCollection();
+        public ScenarioBuilder() => Services = new ServiceCollection();
         
         public ScenarioBuilder(IServiceCollection serviceCollection) => Services = serviceCollection;
 
