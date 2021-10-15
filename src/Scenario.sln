@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scenario", "Scenario\Scenar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scenario.Moq", "Scenario.Moq\Scenario.Moq.csproj", "{BFA8753C-EAFE-4C72-A512-CCF020663F20}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scenario.Moq.Tests", "Scenario.Moq.Tests\Scenario.Moq.Tests.csproj", "{66F40477-15F9-4DC9-87D2-EB62CF76589A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{BFA8753C-EAFE-4C72-A512-CCF020663F20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFA8753C-EAFE-4C72-A512-CCF020663F20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFA8753C-EAFE-4C72-A512-CCF020663F20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66F40477-15F9-4DC9-87D2-EB62CF76589A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66F40477-15F9-4DC9-87D2-EB62CF76589A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66F40477-15F9-4DC9-87D2-EB62CF76589A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66F40477-15F9-4DC9-87D2-EB62CF76589A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
