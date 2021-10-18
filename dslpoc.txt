@@ -1,0 +1,60 @@
+when lang == "csharp" {
+    types {
+        stream = "System.IO.Stream"
+        account-document-type = "Echofi.Core.Models.Transaction.AccountDocumentType"
+        string = "System.String"
+    }
+}
+
+resource Account(Account)
+resource AccountDocument(AccountDocument) <- Account {
+    read-stream <- types.stream
+    document-type <- types.account-document-type
+    content-type <- types.string
+}
+resource DbMigration {
+    $TDbContext <- DbContext
+}
+
+extension WithAccount -> Account[1]
+extension WithAccounts -> Account[1..n]
+extension WithAccountDocument -> AccountDocument[1]
+extension WithAccountDocuments -> AccountDocument[1..n]
+extension WithMigrations -> DbMigration[0]
+
+test "can upload document" {
+    setup {
+        data-length = 64
+        doc-type = account-document-types.drivers-license 
+        content-type = "application/octet-stream"
+        read-stream = generate-random-bytes(data-length)
+    }
+
+    configure {}
+
+    use {
+        sqlite-db-context {
+            db-context = db-contexts.MyDbContext
+            store = disk
+        }
+        fake-s3 {
+            store = disk
+        }
+        s3-options {
+            account-documents-bucket = "account-documents-bucket"
+        }
+        account-documents
+    }
+
+    with {
+        user
+        account
+        account-document {
+            
+        }
+    }
+
+    after {
+
+    }
+}
