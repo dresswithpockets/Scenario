@@ -51,6 +51,12 @@
     ],
     "dest": "_site",
     "globalMetadataFiles": [],
+    "globalMetadata": {
+      "_gitContribute": {
+        "repo": "https://github.com/dresswithpockets/Scenario"
+      },
+      "_gitUrlPattern": "github"
+    },
     "fileMetadataFiles": [],
     "template": [
       "default",
