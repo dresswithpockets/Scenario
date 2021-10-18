@@ -1,0 +1,22 @@
+name: Deploy Release To Nuget
+
+on:
+  release:
+    types: [published]
+
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    environment: release_publish
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Publish Scenario
+        uses: brandedoutcast/publish-nuget@v2.5.5
+        with:
+          PROJECT_FILE_PATH: src/Scenario/Scenario.csproj
+          NUGET_KEY: ${{ secrets.NUGET_KEY }}
