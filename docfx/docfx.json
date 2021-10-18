@@ -53,7 +53,9 @@
     "globalMetadataFiles": [],
     "globalMetadata": {
       "_gitContribute": {
-        "repo": "https://github.com/dresswithpockets/Scenario"
+        "repo": "https://github.com/dresswithpockets/Scenario",
+        "branch": "main",
+        "apiSpecFolder": "docfx"
       },
       "_gitUrlPattern": "github"
     },
