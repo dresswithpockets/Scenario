@@ -31,7 +31,6 @@ namespace Scenario.Moq
             where TMocked : class
             => new(scenarioBuilder, results => resultCallback?.Invoke(results!.Single()), behavior, args);
         
-        
         public static MockedResourceDescription<TScenarioBuilder, TMocked> WithMock<TScenarioBuilder, TMocked>(
             this TScenarioBuilder scenarioBuilder,
             MockBehavior behavior,
