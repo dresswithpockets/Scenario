@@ -104,3 +104,7 @@ Assert.NotNull(foundUser);
 Assert.Equal(user.Id, foundUser.Id);
 Assert.Equal(user.Email, foundUser.Email);
 ```
+
+Thats quite a bit nicer isn't it? Extensions are the heart of what make Scenario easy to work with. While writing extensions is itself tedious and boilerplate heavy; once you write one, it can be reused anywhere `ScenarioBuilder` is used, and will improve the test writing experience quite a bit! 
+
+The hope is for Scenario to be a well-documented and well-maintained paradigm for writing consistent testing scenarios.
