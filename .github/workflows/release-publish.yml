@@ -20,3 +20,4 @@ jobs:
         with:
           PROJECT_FILE_PATH: src/Scenario/Scenario.csproj
           NUGET_KEY: ${{ secrets.NUGET_KEY }}
+          VERSION_REGEX: ^\s*<AssemblyVersion>(.*)<\/AssemblyVersion>\s*$
