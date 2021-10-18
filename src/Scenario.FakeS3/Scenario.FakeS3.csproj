@@ -3,6 +3,14 @@
     <PropertyGroup>
         <TargetFramework>net5.0</TargetFramework>
         <Nullable>enable</Nullable>
+        <AssemblyVersion>0.1.1</AssemblyVersion>
+        <PackageId>Scenario.FakeS3</PackageId>
+        <Version>0.1.1</Version>
+        <Authors>dresswithpockets</Authors>
+        <Description>FakeS3 support for Scenarios.</Description>
+        <PackageProjectUrl>https://github.com/dresswithpockets/Scenario</PackageProjectUrl>
+        <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+        <RepositoryUrl>https://github.com/dresswithpockets/Scenario</RepositoryUrl>
     </PropertyGroup>
 
     <ItemGroup>
