@@ -20,3 +20,21 @@ jobs:
         with:
           PROJECT_FILE_PATH: src/Scenario/Scenario.csproj
           NUGET_KEY: ${{ secrets.NUGET_KEY }}
+
+      - name: Publish Scenario.EFCore
+        uses: brandedoutcast/publish-nuget@v2.5.5
+        with:
+          PROJECT_FILE_PATH: src/Scenario.EFCore/Scenario.EFCore.csproj
+          NUGET_KEY: ${{ secrets.NUGET_KEY }}
+
+      - name: Publish Scenario.FakeS3
+        uses: brandedoutcast/publish-nuget@v2.5.5
+        with:
+          PROJECT_FILE_PATH: src/Scenario.FakeS3/Scenario.FakeS3.csproj
+          NUGET_KEY: ${{ secrets.NUGET_KEY }}
+          
+      - name: Publish Scenario.Moq
+        uses: brandedoutcast/publish-nuget@v2.5.5
+        with:
+          PROJECT_FILE_PATH: src/Scenario.Moq/Scenario.Moq.csproj
+          NUGET_KEY: ${{ secrets.NUGET_KEY }}
