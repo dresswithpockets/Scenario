@@ -12,10 +12,10 @@ namespace Scenario
         where TScenarioBuilder : IScenarioBuilder
     {
         private readonly Action<IReadOnlyCollection<TResource>?>? _resultCallback;
-        public TScenarioBuilder Builder { get; }
         
+        public TScenarioBuilder Builder { get; }
 
-        public IReadOnlyCollection<TResource> Resources { get; protected set; }
+        public IReadOnlyCollection<TResource> Resources { get; protected set; } = null!;
 
         protected virtual void ResultCallback(object? result)
         {
@@ -26,7 +26,7 @@ namespace Scenario
 
         protected abstract Task<IImmutableList<TResource>> ScopeActionAsync(IServiceScope scope); 
 
-        public BaseResourceDescription(TScenarioBuilder scenarioBuilder,
+        protected BaseResourceDescription(TScenarioBuilder scenarioBuilder,
             Action<IReadOnlyCollection<TResource>?>? resultCallback)
         {
             Builder = scenarioBuilder;

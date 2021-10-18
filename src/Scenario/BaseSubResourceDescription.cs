@@ -15,7 +15,7 @@ namespace Scenario
             ParentAs<TDependent>() =>
             ParentDescription as IScenarioBuilderSubResourceDescription<TScenarioBuilder, TDependent, TParentResource>; 
 
-        public BaseSubResourceDescription(
+        protected BaseSubResourceDescription(
             TScenarioBuilder scenarioBuilder,
             IScenarioBuilderResourceDescription<TScenarioBuilder, TParentResource> parentDescription,
             Action<IReadOnlyCollection<TSubResource>?>? resultCallback) : base(scenarioBuilder, resultCallback)
