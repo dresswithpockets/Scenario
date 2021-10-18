@@ -3,14 +3,14 @@
     <PropertyGroup>
         <TargetFramework>net5.0</TargetFramework>
         <Nullable>enable</Nullable>
-        <AssemblyVersion>0.1.0</AssemblyVersion>
+        <AssemblyVersion>0.1.1</AssemblyVersion>
         <PackageId>Scenario</PackageId>
-        <Version>0.1.0</Version>
+        <Version>0.1.1</Version>
         <Authors>dresswithpockets</Authors>
-        <Description>Provides in-memory and on-disk implementations for storing S3-like buckets and objects. Based on fake-s3.</Description>
-        <PackageProjectUrl>https://github.com/dresswithpockets/FakeS3</PackageProjectUrl>
+        <Description>Simplify creating unit test scenarios.</Description>
+        <PackageProjectUrl>https://github.com/dresswithpockets/Scenario</PackageProjectUrl>
         <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
-        <RepositoryUrl>https://github.com/dresswithpockets/FakeS3</RepositoryUrl>
+        <RepositoryUrl>https://github.com/dresswithpockets/Scenario</RepositoryUrl>
     </PropertyGroup>
 
     <ItemGroup>
