@@ -22,7 +22,7 @@ namespace Scenario.Moq
         {
             _mock = new Mock<TMocked>();
         }
-        
+
         public MockedSubResourceDescription(
             IScenarioBuilderResourceDescription<TScenarioBuilder, TDependent> dependentResource,
             Action<IReadOnlyCollection<TMocked>?>? resultCallback,
@@ -31,7 +31,7 @@ namespace Scenario.Moq
         {
             _mock = new Mock<TMocked>(args);
         }
-        
+
         public MockedSubResourceDescription(
             IScenarioBuilderResourceDescription<TScenarioBuilder, TDependent> dependentResource,
             Action<IReadOnlyCollection<TMocked>?>? resultCallback,
@@ -41,7 +41,7 @@ namespace Scenario.Moq
         {
             _mock = new Mock<TMocked>(mockBehavior, args);
         }
-        
+
         public MockedSubResourceDescription(
             IScenarioBuilderResourceDescription<TScenarioBuilder, TDependent> dependentResource,
             Action<IReadOnlyCollection<TMocked>?>? resultCallback,
@@ -50,7 +50,7 @@ namespace Scenario.Moq
         {
             _mock = new Mock<TMocked>(mockBehavior);
         }
-        
+
         public MockedSubResourceDescription(
             IScenarioBuilderResourceDescription<TScenarioBuilder, TDependent> dependentResource,
             Action<IReadOnlyCollection<TMocked>?>? resultCallback,
