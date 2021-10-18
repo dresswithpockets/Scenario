@@ -55,7 +55,7 @@
       "_gitContribute": {
         "repo": "https://github.com/dresswithpockets/Scenario",
         "branch": "main",
-        "apiSpecFolder": "docfx"
+        "apiSpecFolder": "docfx/api"
       },
       "_gitUrlPattern": "github"
     },
