@@ -80,9 +80,9 @@ public static TScenarioBuilder WithUser<TScenarioBuilder>(
     string email,
     Action<User>? resultCallback = null)
     where TScenarioBuilder : IScenarioBuilder
-    where TMocked : class
     => (TScenarioBuilder) scenarioBuilder
-        .With(scope => scope.GetRequiredService<IUserService>().CreateNewUser(email), u => user = (User)u!);
+        .With(scope => scope.ServiceProvider.GetRequiredService<IUserService>().CreateNewUser(email),
+            u => resultCallback?.Invoke((User)u!));
 ```
 
 And put it all to use in a hypothetical unit test:
