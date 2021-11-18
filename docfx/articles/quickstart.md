@@ -1,5 +1,7 @@
 # Quickstart
 
+Approx. 10 minute read.
+
 This is a brief overview of the central concepts of Scenario and how to use Scenario in a unit test. This overview will also go over creating your own extensions for Scenario - necessary for creating maintainable and reusable components for your unit tests.
 
 ## Concepts
