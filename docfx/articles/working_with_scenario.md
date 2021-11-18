@@ -18,7 +18,7 @@ From here you may add a dependency necessary for the scenario - the `Use` method
 builder.Use(services => services.AddTransient<IUserService, UserService>());
 ```
 
-For the sake of our example, lets create a user given this hypothetical `IUserServices` - the `With` method takes a factory method which is passed an `IServiceScope`, exposing all of the dependencies we've added to the scenario thus far:
+For the sake of our example, lets create a user given this hypothetical `IUserService` - the `With` method takes a factory method which is passed an `IServiceScope`, exposing all of the dependencies we've added to the scenario thus far:
 
 ```cs
 builder.With(async scope => await scope.ServiceProvider.GetRequiredService<IUserService>().CreateUserAsync());
