@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
@@ -28,6 +29,16 @@ namespace Scenario
             Action<object?>? resultCallback = null)
         {
             _scopedActions.Add((scopedAction, resultCallback));
+            return this;
+        }
+
+        public IScenarioBuilder With(Func<IServiceScope, Task> scopedAction)
+        {
+            _scopedActions.Add((async scope =>
+            {
+                await scopedAction(scope);
+                return Task.FromResult<object?>(null);
+            }, null));
             return this;
         }
 

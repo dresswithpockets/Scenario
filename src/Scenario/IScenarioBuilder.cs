@@ -8,6 +8,7 @@ namespace Scenario
     {
         IScenarioBuilder Use(Action<IServiceCollection> configure);
         IScenarioBuilder With(Func<IServiceScope, Task<object?>> scopedAction, Action<object?>? resultCallback = null);
+        IScenarioBuilder With(Func<IServiceScope, Task> scopedAction);
         Task<IScenario> BuildAsync();
     }
 }
