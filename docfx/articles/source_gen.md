@@ -118,6 +118,37 @@ var db = scope.ServiceProvider.GetRequiredService<MyDbContext>();
 
 This attribute signals a method which will do some processing which may depends on a service within the scenario's service collection. Analogous to a `With` method, i.e `WithUser`.
 
+For example, here is an example of a resource method which queries the service provider for an IUserService, then it creates `n` users.
+
+```c#
+public static class ScenarioExtensions
+{
+    [ScenarioResource]
+    public static async Task<IEnumerable<User>> WithUsers(IServiceScope scope, int count = 1)
+        => await Task.WhenAll(Enumerable.Range(0, count).Select(_ => scope.ServiceProvider.GetRequiredService<IUserService>.CreateUserAsync()));
+}
+```
+
+Which will trigger the source generator to generate an extension method like this:
+
+```c#
+public static __TScenarioBuilder WithUsers<__TScenarioBuilder>(this __TScenarioBuilder __scenarioBuilder,
+                                                               int count = 1,
+                                                               Action<IEnumerable<User>>? resultCallback = null)
+    where __TScenarioBuilder : IScenarioBuilder
+    => (__TScenarioBuilder) __scenarioBuilder.With(scope => ScenarioExtensions.WithUsers(scope, count), u => resultCallback?.Invoke((IEnumerable<User>)u));
+```
+
+Which you may use like so:
+
+```c#
+IEnumerable<User> users = null!;
+var scenario = await new ScenarioBuilder()
+                .UseUserServices()
+                .WithUsers(10, u => users = u);
+                .BuildAsync();
+```
+
 ### Changing the extension's name
 
 Each of the aforementioned attributes has an `ExtensionName` property that will override the name of the attribute, like so:
