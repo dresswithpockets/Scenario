@@ -56,8 +56,9 @@ There are a few requirements for your method to be a valid extension method:
 
 - It must be public and static.
 - If it is a Dependency, it must return void.
+- If it is a Dependency, it must always accept an `IServiceCollection` as its first parameter, even if it does not utilize it.
 - If it is a Resource, it must return a `Task` or `Task<T>`.
-- It must always accept an `IServiceCollection` as its first parameter, even if it does not utilize it.
+- If it is a Resource, it must always accept an `IServiceScope` as its first parameter, even if it does not utilize it.
 - It must not accept a `ref` or `out` parameter.
 - It must not have a type generic parameter named `__TScenarioBuilder`
     - This type parameter is used by the generated C# code
@@ -105,7 +106,7 @@ public static __TScenarioBuilder UseNpgsql<__TScenarioBuilder, TDbContext>(this 
 Which you may use like so:
 
 ```c#
-var scenario = await new ScenarioBuilder
+var scenario = await new ScenarioBuilder()
                 .UseNpgsql<ScenarioBuilder, MyDbContext>()
                 .BuildAsync();
 
@@ -139,7 +140,7 @@ new ScenarioBuilder()
 Lets take this sample from earlier:
 
 ```c#
-var scenario = await new ScenarioBuilder
+var scenario = await new ScenarioBuilder()
                 .UseNpgsql<ScenarioBuilder, MyDbContext>()
                 .BuildAsync();
 ```
