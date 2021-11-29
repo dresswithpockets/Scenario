@@ -3,7 +3,21 @@
     <PropertyGroup>
         <TargetFramework>net5.0</TargetFramework>
         <Nullable>enable</Nullable>
+        <AssemblyVersion>0.2.0</AssemblyVersion>
+        <PackageId>Scenario.SourceGenerator</PackageId>
+        <Version>0.2.0</Version>
+        <Authors>dresswithpockets</Authors>
+        <Description>Source generators to improve the Scenario workflow.</Description>
+        <PackageProjectUrl>https://dresswithpockets.github.io/Scenario</PackageProjectUrl>
+        <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+        <RepositoryUrl>https://github.com/dresswithpockets/Scenario</RepositoryUrl>
+        <IncludeBuildOutput>false</IncludeBuildOutput>
     </PropertyGroup>
+    
+    <ItemGroup>
+        <!-- Package the generator in the analyzer directory of the nuget package -->
+        <None Include="$(OutputPath)\$(AssemblyName).dll" Pack="true" PackagePath="analyzers/dotnet/cs" Visible="false" />
+    </ItemGroup>
 
     <ItemGroup>
         <PackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="3.3.3" PrivateAssets="all" />
