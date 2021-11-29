@@ -3,9 +3,9 @@
     <PropertyGroup>
         <TargetFramework>net5.0</TargetFramework>
         <Nullable>enable</Nullable>
-        <AssemblyVersion>0.2.0</AssemblyVersion>
+        <AssemblyVersion>0.2.1</AssemblyVersion>
         <PackageId>Scenario.SourceGenerator</PackageId>
-        <Version>0.2.0</Version>
+        <Version>0.2.1</Version>
         <Authors>dresswithpockets</Authors>
         <Description>Source generators to improve the Scenario workflow.</Description>
         <PackageProjectUrl>https://dresswithpockets.github.io/Scenario</PackageProjectUrl>

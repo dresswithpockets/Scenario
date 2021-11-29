@@ -166,13 +166,13 @@ namespace {namespaceName}
             {
                 var body = $@"
         public static __TScenarioBuilder {extensionName}<__TScenarioBuilder{typeParams}>(this __TScenarioBuilder __scenarioBuilder{@params})
-            where __TScenarioBuilder : IScenarioBuilder{typeConstraints}
+            where __TScenarioBuilder : global::Scenario.IScenarioBuilder{typeConstraints}
             => (__TScenarioBuilder) __scenarioBuilder.With(__scope => {method.ContainingType.Name}.{method.Name}{funcCallTypeParams}(__scope{paramInjection}));
 ";
                 if (generateNonGenericForm ?? false)
                 {
                     body += $@"
-        public static IScenarioBuilder {extensionName}{funcCallTypeParams}(this IScenarioBuilder __scenarioBuilder{@params}){typeConstraints}
+        public static global::Scenario.IScenarioBuilder {extensionName}{funcCallTypeParams}(this global::Scenario.IScenarioBuilder __scenarioBuilder{@params}){typeConstraints}
             => __scenarioBuilder.With(__scope => {method.ContainingType.Name}.{method.Name}{funcCallTypeParams}(__scope{paramInjection}));
 ";
                 }
@@ -183,13 +183,13 @@ namespace {namespaceName}
             {
                 var body = $@"
         public static __TScenarioBuilder {extensionName}<__TScenarioBuilder{typeParams}>(this __TScenarioBuilder __scenarioBuilder{@params})
-            where __TScenarioBuilder : IScenarioBuilder{typeConstraints}
+            where __TScenarioBuilder : global::Scenario.IScenarioBuilder{typeConstraints}
             => (__TScenarioBuilder) __scenarioBuilder.Use(__services => {method.ContainingType.Name}.{method.Name}{funcCallTypeParams}(__services{paramInjection}));
 ";
                 if (generateNonGenericForm ?? false)
                 {
                     body += $@"
-        public static IScenarioBuilder {extensionName}{funcCallTypeParams}(this IScenarioBuilder __scenarioBuilder{@params}){typeConstraints}
+        public static global::Scenario.IScenarioBuilder {extensionName}{funcCallTypeParams}(this global::Scenario.IScenarioBuilder __scenarioBuilder{@params}){typeConstraints}
             => __scenarioBuilder.Use(__services => {method.ContainingType.Name}.{method.Name}{funcCallTypeParams}(__services{paramInjection}));
 ";
                 }
