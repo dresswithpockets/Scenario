@@ -1,0 +1,211 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Quickstart </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Quickstart ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="quickstart">Quickstart</h1>
+
+<p>Approx. 10 minute read.</p>
+<p>This is a brief overview of the central concepts of Scenario and how to use Scenario in a unit test. This overview will also go over creating your own extensions for Scenario - necessary for creating maintainable and reusable components for your unit tests.</p>
+<h2 id="concepts">Concepts</h2>
+<h3 id="dependencies">Dependencies</h3>
+<p>Dependencies, aka Services, are objects added to the service collection that Scenario wraps. If you are familiar with writing services in ASP.NET projects, this is the same.</p>
+<h3 id="resources">Resources</h3>
+<p>Resources are objects created after the service collection has been built and a scope has been created with all of those dependencies. Usually one of those dependencies are used to create the resource. These are usually used in the same way as mocked objects or data in tests.</p>
+<h4 id="dependent-resources">Dependent Resources</h4>
+<p>Dependent resources are resources that require another resource to be created.</p>
+<h2 id="getting-started">Getting Started</h2>
+<h3 id="install">Install</h3>
+<p>Install Scenario from <a href="https://www.nuget.org/packages/Scenario">Nuget</a>:</p>
+<pre><code>dotnet add package Scenario
+</code></pre>
+<h3 id="basic-usage">Basic Usage</h3>
+<p>Here is a naive example of how to build a Scenario with a prexisting service, and no extensions:</p>
+<pre><code class="lang-cs">User user = null!;
+var scenario = await new ScenarioBuilder()
+    .Use(services =&gt; services.AddTransient&lt;IUserService, UserService&gt;())
+    .With(scope =&gt; scope.GetRequiredService&lt;IUserService&gt;().CreateNewUser(), u =&gt; user = (User)u!);
+    .BuildAsync();
+
+using var scope = scenario.CreateScope();
+var userService = scope.ServiceProvider.GetRequiredService&lt;IUserService&gt;();
+
+var users = userService.GetUsers();
+Assert.NotNull(users);
+</code></pre>
+<p>Almost all operations will terminate on <code>ScenarioBuilder</code> in some way.</p>
+<p><code>Use</code> calls the given action with the <code>IServiceCollection</code> wrapped by <code>ScenarioBuilder</code>, allowing you to add <a href="#Dependencies">Dependencies</a> to it just as you would in ASP.NET's <code>ConfigureServices</code> startup function.</p>
+<p><code>With</code> configures the builder to callback on the given <a href="#Resources">Resource</a> factory method, and pass the result along to the callback if necessary. Factories configured via <code>With</code> are executed imperatively, in order, once <code>BuildAsync</code> is called.</p>
+<p><code>BuildAsync</code> builds final <code>IServiceProvider</code> from the builder's <code>IServiceCollection</code>, creates a new scope and passes that scope to each of the Resource factories in order by declaration order.</p>
+<h3 id="using-extensions">Using Extensions</h3>
+<p>First, lets include some common extensions for interacting with EF Core DbContexts, which our hypothetical <code>UserService</code> may depend on:</p>
+<p>Install Scenario.EFCore from <a href="https://www.nuget.org/packages/Scenario.EFCore/">Nuget</a>:</p>
+<pre><code>dotnet add package Scenario.EFCore
+</code></pre>
+<p>Lets create an extension for our user service Dependency:</p>
+<pre><code class="lang-cs">public static TScenarioBuilder UseUsers&lt;TScenarioBuilder&gt;(
+    this TScenarioBuilder scenarioBuilder)
+    where TScenarioBuilder : IScenarioBuilder
+    =&gt; (TScenarioBuilder) scenarioBuilder
+        .Use(services =&gt; services.AddTransient&lt;IUserService, UserService&gt;());
+</code></pre>
+<p>And an extension for mocking an arbitrary user Resource:</p>
+<pre><code class="lang-cs">public static TScenarioBuilder WithUser&lt;TScenarioBuilder&gt;(
+    this TScenarioBuilder scenarioBuilder,
+    string email,
+    Action&lt;User&gt;? resultCallback = null)
+    where TScenarioBuilder : IScenarioBuilder
+    =&gt; (TScenarioBuilder) scenarioBuilder
+        .With(scope =&gt; scope.ServiceProvider.GetRequiredService&lt;IUserService&gt;().CreateNewUser(email),
+            u =&gt; resultCallback?.Invoke((User)u!));
+</code></pre>
+<p>And put it all to use in a hypothetical unit test:</p>
+<pre><code class="lang-cs">const string testEmail = &quot;test@test.com&quot;;
+User user = null!;
+var scenario = await new ScenarioBuilder()
+    .UseOnDiskSqliteDbContext&lt;MyDbContext&gt;()
+    .UseUsers()
+    .WithUser(testEmail, u =&gt; user = u!);
+    .BuildAsync();
+
+using var scope = scenario.CreateScope();
+var userService = scope.ServiceProvider.GetRequiredService&lt;IUserService&gt;();
+
+var foundUser = userService.GetUserByEmail(testEmail);
+Assert.NotNull(foundUser);
+Assert.Equal(user.Id, foundUser.Id);
+Assert.Equal(user.Email, foundUser.Email);
+</code></pre>
+<p>Thats quite a bit nicer isn't it? Extensions are the heart of what make Scenario easy to work with. While writing extensions is itself tedious and boilerplate heavy; once you write one, it can be reused anywhere <code>ScenarioBuilder</code> is used, and will improve the test writing experience quite a bit!</p>
+<p>The hope is for Scenario to be a well-documented and well-maintained paradigm for writing consistent testing scenarios.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/dresswithpockets/Scenario/blob/main//__w/Scenario/Scenario/docfx/articles/quickstart.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="toggle-mode">
+                <div class="icon">
+                  <i aria-hidden="true">☀</i>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="switch-style">
+                  <span class="slider round"></span>
+                </label>
+                <div class="icon">
+                  <i aria-hidden="true">☾</i>
+                </div>
+              </div>
+          
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <h5>In This Article</h5>
+              <div></div>
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <div class="pull-left">
+              
+              <span>Generated by <strong>DocFX</strong></span>
+            </div>
+            <div class="toggle-mode pull-right visible-sm visible-xs">
+              <div class="icon">
+                <i aria-hidden="true">☀</i>
+              </div>
+              <label class="switch">
+                <input type="checkbox" id="switch-style-m">
+                <span class="slider round"></span>
+              </label>
+              <div class="icon">
+                <i aria-hidden="true">☾</i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript" src="../styles/toggle-theme.js"></script>
+      </footer>    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

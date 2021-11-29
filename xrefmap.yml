@@ -1,0 +1,1130 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Scenario
+  name: Scenario
+  href: api/Scenario.html
+  commentId: N:Scenario
+  fullName: Scenario
+  nameWithType: Scenario
+- uid: Scenario.BaseResourceDescription`2
+  name: BaseResourceDescription<TScenarioBuilder, TResource>
+  href: api/Scenario.BaseResourceDescription-2.html
+  commentId: T:Scenario.BaseResourceDescription`2
+  name.vb: BaseResourceDescription(Of TScenarioBuilder, TResource)
+  fullName: Scenario.BaseResourceDescription<TScenarioBuilder, TResource>
+  fullName.vb: Scenario.BaseResourceDescription(Of TScenarioBuilder, TResource)
+  nameWithType: BaseResourceDescription<TScenarioBuilder, TResource>
+  nameWithType.vb: BaseResourceDescription(Of TScenarioBuilder, TResource)
+- uid: Scenario.BaseResourceDescription`2.#ctor(`0,System.Nullable{Action{System.Nullable{IReadOnlyCollection{`1}}}})
+  name: BaseResourceDescription(TScenarioBuilder, Nullable<Action<Nullable<IReadOnlyCollection<TResource>>>>)
+  href: api/Scenario.BaseResourceDescription-2.html#Scenario_BaseResourceDescription_2__ctor__0_System_Nullable_Action_System_Nullable_IReadOnlyCollection__1_____
+  commentId: M:Scenario.BaseResourceDescription`2.#ctor(`0,System.Nullable{Action{System.Nullable{IReadOnlyCollection{`1}}}})
+  name.vb: BaseResourceDescription(TScenarioBuilder, Nullable(Of Action(Of Nullable(Of IReadOnlyCollection(Of TResource)))))
+  fullName: Scenario.BaseResourceDescription<TScenarioBuilder, TResource>.BaseResourceDescription(TScenarioBuilder, System.Nullable<Action<System.Nullable<IReadOnlyCollection<TResource>>>>)
+  fullName.vb: Scenario.BaseResourceDescription(Of TScenarioBuilder, TResource).BaseResourceDescription(TScenarioBuilder, System.Nullable(Of Action(Of System.Nullable(Of IReadOnlyCollection(Of TResource)))))
+  nameWithType: BaseResourceDescription<TScenarioBuilder, TResource>.BaseResourceDescription(TScenarioBuilder, Nullable<Action<Nullable<IReadOnlyCollection<TResource>>>>)
+  nameWithType.vb: BaseResourceDescription(Of TScenarioBuilder, TResource).BaseResourceDescription(TScenarioBuilder, Nullable(Of Action(Of Nullable(Of IReadOnlyCollection(Of TResource)))))
+- uid: Scenario.BaseResourceDescription`2.#ctor*
+  name: BaseResourceDescription
+  href: api/Scenario.BaseResourceDescription-2.html#Scenario_BaseResourceDescription_2__ctor_
+  commentId: Overload:Scenario.BaseResourceDescription`2.#ctor
+  isSpec: "True"
+  fullName: Scenario.BaseResourceDescription<TScenarioBuilder, TResource>.BaseResourceDescription
+  fullName.vb: Scenario.BaseResourceDescription(Of TScenarioBuilder, TResource).BaseResourceDescription
+  nameWithType: BaseResourceDescription<TScenarioBuilder, TResource>.BaseResourceDescription
+  nameWithType.vb: BaseResourceDescription(Of TScenarioBuilder, TResource).BaseResourceDescription
+- uid: Scenario.BaseResourceDescription`2.Builder
+  name: Builder
+  href: api/Scenario.BaseResourceDescription-2.html#Scenario_BaseResourceDescription_2_Builder
+  commentId: P:Scenario.BaseResourceDescription`2.Builder
+  fullName: Scenario.BaseResourceDescription<TScenarioBuilder, TResource>.Builder
+  fullName.vb: Scenario.BaseResourceDescription(Of TScenarioBuilder, TResource).Builder
+  nameWithType: BaseResourceDescription<TScenarioBuilder, TResource>.Builder
+  nameWithType.vb: BaseResourceDescription(Of TScenarioBuilder, TResource).Builder
+- uid: Scenario.BaseResourceDescription`2.Builder*
+  name: Builder
+  href: api/Scenario.BaseResourceDescription-2.html#Scenario_BaseResourceDescription_2_Builder_
+  commentId: Overload:Scenario.BaseResourceDescription`2.Builder
+  isSpec: "True"
+  fullName: Scenario.BaseResourceDescription<TScenarioBuilder, TResource>.Builder
+  fullName.vb: Scenario.BaseResourceDescription(Of TScenarioBuilder, TResource).Builder
+  nameWithType: BaseResourceDescription<TScenarioBuilder, TResource>.Builder
+  nameWithType.vb: BaseResourceDescription(Of TScenarioBuilder, TResource).Builder
+- uid: Scenario.BaseResourceDescription`2.Resources
+  name: Resources
+  href: api/Scenario.BaseResourceDescription-2.html#Scenario_BaseResourceDescription_2_Resources
+  commentId: P:Scenario.BaseResourceDescription`2.Resources
+  fullName: Scenario.BaseResourceDescription<TScenarioBuilder, TResource>.Resources
+  fullName.vb: Scenario.BaseResourceDescription(Of TScenarioBuilder, TResource).Resources
+  nameWithType: BaseResourceDescription<TScenarioBuilder, TResource>.Resources
+  nameWithType.vb: BaseResourceDescription(Of TScenarioBuilder, TResource).Resources
+- uid: Scenario.BaseResourceDescription`2.Resources*
+  name: Resources
+  href: api/Scenario.BaseResourceDescription-2.html#Scenario_BaseResourceDescription_2_Resources_
+  commentId: Overload:Scenario.BaseResourceDescription`2.Resources
+  isSpec: "True"
+  fullName: Scenario.BaseResourceDescription<TScenarioBuilder, TResource>.Resources
+  fullName.vb: Scenario.BaseResourceDescription(Of TScenarioBuilder, TResource).Resources
+  nameWithType: BaseResourceDescription<TScenarioBuilder, TResource>.Resources
+  nameWithType.vb: BaseResourceDescription(Of TScenarioBuilder, TResource).Resources
+- uid: Scenario.BaseResourceDescription`2.ResultCallback(System.Nullable{System.Object})
+  name: ResultCallback(Nullable<Object>)
+  href: api/Scenario.BaseResourceDescription-2.html#Scenario_BaseResourceDescription_2_ResultCallback_System_Nullable_System_Object__
+  commentId: M:Scenario.BaseResourceDescription`2.ResultCallback(System.Nullable{System.Object})
+  name.vb: ResultCallback(Nullable(Of Object))
+  fullName: Scenario.BaseResourceDescription<TScenarioBuilder, TResource>.ResultCallback(System.Nullable<System.Object>)
+  fullName.vb: Scenario.BaseResourceDescription(Of TScenarioBuilder, TResource).ResultCallback(System.Nullable(Of System.Object))
+  nameWithType: BaseResourceDescription<TScenarioBuilder, TResource>.ResultCallback(Nullable<Object>)
+  nameWithType.vb: BaseResourceDescription(Of TScenarioBuilder, TResource).ResultCallback(Nullable(Of Object))
+- uid: Scenario.BaseResourceDescription`2.ResultCallback*
+  name: ResultCallback
+  href: api/Scenario.BaseResourceDescription-2.html#Scenario_BaseResourceDescription_2_ResultCallback_
+  commentId: Overload:Scenario.BaseResourceDescription`2.ResultCallback
+  isSpec: "True"
+  fullName: Scenario.BaseResourceDescription<TScenarioBuilder, TResource>.ResultCallback
+  fullName.vb: Scenario.BaseResourceDescription(Of TScenarioBuilder, TResource).ResultCallback
+  nameWithType: BaseResourceDescription<TScenarioBuilder, TResource>.ResultCallback
+  nameWithType.vb: BaseResourceDescription(Of TScenarioBuilder, TResource).ResultCallback
+- uid: Scenario.BaseResourceDescription`2.ScopeActionAsync(IServiceScope)
+  name: ScopeActionAsync(IServiceScope)
+  href: api/Scenario.BaseResourceDescription-2.html#Scenario_BaseResourceDescription_2_ScopeActionAsync_IServiceScope_
+  commentId: M:Scenario.BaseResourceDescription`2.ScopeActionAsync(IServiceScope)
+  fullName: Scenario.BaseResourceDescription<TScenarioBuilder, TResource>.ScopeActionAsync(IServiceScope)
+  fullName.vb: Scenario.BaseResourceDescription(Of TScenarioBuilder, TResource).ScopeActionAsync(IServiceScope)
+  nameWithType: BaseResourceDescription<TScenarioBuilder, TResource>.ScopeActionAsync(IServiceScope)
+  nameWithType.vb: BaseResourceDescription(Of TScenarioBuilder, TResource).ScopeActionAsync(IServiceScope)
+- uid: Scenario.BaseResourceDescription`2.ScopeActionAsync*
+  name: ScopeActionAsync
+  href: api/Scenario.BaseResourceDescription-2.html#Scenario_BaseResourceDescription_2_ScopeActionAsync_
+  commentId: Overload:Scenario.BaseResourceDescription`2.ScopeActionAsync
+  isSpec: "True"
+  fullName: Scenario.BaseResourceDescription<TScenarioBuilder, TResource>.ScopeActionAsync
+  fullName.vb: Scenario.BaseResourceDescription(Of TScenarioBuilder, TResource).ScopeActionAsync
+  nameWithType: BaseResourceDescription<TScenarioBuilder, TResource>.ScopeActionAsync
+  nameWithType.vb: BaseResourceDescription(Of TScenarioBuilder, TResource).ScopeActionAsync
+- uid: Scenario.BaseSubResourceDescription`3
+  name: BaseSubResourceDescription<TScenarioBuilder, TParentResource, TSubResource>
+  href: api/Scenario.BaseSubResourceDescription-3.html
+  commentId: T:Scenario.BaseSubResourceDescription`3
+  name.vb: BaseSubResourceDescription(Of TScenarioBuilder, TParentResource, TSubResource)
+  fullName: Scenario.BaseSubResourceDescription<TScenarioBuilder, TParentResource, TSubResource>
+  fullName.vb: Scenario.BaseSubResourceDescription(Of TScenarioBuilder, TParentResource, TSubResource)
+  nameWithType: BaseSubResourceDescription<TScenarioBuilder, TParentResource, TSubResource>
+  nameWithType.vb: BaseSubResourceDescription(Of TScenarioBuilder, TParentResource, TSubResource)
+- uid: Scenario.BaseSubResourceDescription`3.#ctor(`0,Scenario.IScenarioBuilderResourceDescription{`0,`1},System.Nullable{Action{System.Nullable{IReadOnlyCollection{`2}}}})
+  name: BaseSubResourceDescription(TScenarioBuilder, IScenarioBuilderResourceDescription<TScenarioBuilder, TParentResource>, Nullable<Action<Nullable<IReadOnlyCollection<TSubResource>>>>)
+  href: api/Scenario.BaseSubResourceDescription-3.html#Scenario_BaseSubResourceDescription_3__ctor__0_Scenario_IScenarioBuilderResourceDescription__0__1__System_Nullable_Action_System_Nullable_IReadOnlyCollection__2_____
+  commentId: M:Scenario.BaseSubResourceDescription`3.#ctor(`0,Scenario.IScenarioBuilderResourceDescription{`0,`1},System.Nullable{Action{System.Nullable{IReadOnlyCollection{`2}}}})
+  name.vb: BaseSubResourceDescription(TScenarioBuilder, IScenarioBuilderResourceDescription(Of TScenarioBuilder, TParentResource), Nullable(Of Action(Of Nullable(Of IReadOnlyCollection(Of TSubResource)))))
+  fullName: Scenario.BaseSubResourceDescription<TScenarioBuilder, TParentResource, TSubResource>.BaseSubResourceDescription(TScenarioBuilder, Scenario.IScenarioBuilderResourceDescription<TScenarioBuilder, TParentResource>, System.Nullable<Action<System.Nullable<IReadOnlyCollection<TSubResource>>>>)
+  fullName.vb: Scenario.BaseSubResourceDescription(Of TScenarioBuilder, TParentResource, TSubResource).BaseSubResourceDescription(TScenarioBuilder, Scenario.IScenarioBuilderResourceDescription(Of TScenarioBuilder, TParentResource), System.Nullable(Of Action(Of System.Nullable(Of IReadOnlyCollection(Of TSubResource)))))
+  nameWithType: BaseSubResourceDescription<TScenarioBuilder, TParentResource, TSubResource>.BaseSubResourceDescription(TScenarioBuilder, IScenarioBuilderResourceDescription<TScenarioBuilder, TParentResource>, Nullable<Action<Nullable<IReadOnlyCollection<TSubResource>>>>)
+  nameWithType.vb: BaseSubResourceDescription(Of TScenarioBuilder, TParentResource, TSubResource).BaseSubResourceDescription(TScenarioBuilder, IScenarioBuilderResourceDescription(Of TScenarioBuilder, TParentResource), Nullable(Of Action(Of Nullable(Of IReadOnlyCollection(Of TSubResource)))))
+- uid: Scenario.BaseSubResourceDescription`3.#ctor*
+  name: BaseSubResourceDescription
+  href: api/Scenario.BaseSubResourceDescription-3.html#Scenario_BaseSubResourceDescription_3__ctor_
+  commentId: Overload:Scenario.BaseSubResourceDescription`3.#ctor
+  isSpec: "True"
+  fullName: Scenario.BaseSubResourceDescription<TScenarioBuilder, TParentResource, TSubResource>.BaseSubResourceDescription
+  fullName.vb: Scenario.BaseSubResourceDescription(Of TScenarioBuilder, TParentResource, TSubResource).BaseSubResourceDescription
+  nameWithType: BaseSubResourceDescription<TScenarioBuilder, TParentResource, TSubResource>.BaseSubResourceDescription
+  nameWithType.vb: BaseSubResourceDescription(Of TScenarioBuilder, TParentResource, TSubResource).BaseSubResourceDescription
+- uid: Scenario.BaseSubResourceDescription`3.ParentAs*
+  name: ParentAs
+  href: api/Scenario.BaseSubResourceDescription-3.html#Scenario_BaseSubResourceDescription_3_ParentAs_
+  commentId: Overload:Scenario.BaseSubResourceDescription`3.ParentAs
+  isSpec: "True"
+  fullName: Scenario.BaseSubResourceDescription<TScenarioBuilder, TParentResource, TSubResource>.ParentAs
+  fullName.vb: Scenario.BaseSubResourceDescription(Of TScenarioBuilder, TParentResource, TSubResource).ParentAs
+  nameWithType: BaseSubResourceDescription<TScenarioBuilder, TParentResource, TSubResource>.ParentAs
+  nameWithType.vb: BaseSubResourceDescription(Of TScenarioBuilder, TParentResource, TSubResource).ParentAs
+- uid: Scenario.BaseSubResourceDescription`3.ParentAs``1
+  name: ParentAs<TDependent>()
+  href: api/Scenario.BaseSubResourceDescription-3.html#Scenario_BaseSubResourceDescription_3_ParentAs__1
+  commentId: M:Scenario.BaseSubResourceDescription`3.ParentAs``1
+  name.vb: ParentAs(Of TDependent)()
+  fullName: Scenario.BaseSubResourceDescription<TScenarioBuilder, TParentResource, TSubResource>.ParentAs<TDependent>()
+  fullName.vb: Scenario.BaseSubResourceDescription(Of TScenarioBuilder, TParentResource, TSubResource).ParentAs(Of TDependent)()
+  nameWithType: BaseSubResourceDescription<TScenarioBuilder, TParentResource, TSubResource>.ParentAs<TDependent>()
+  nameWithType.vb: BaseSubResourceDescription(Of TScenarioBuilder, TParentResource, TSubResource).ParentAs(Of TDependent)()
+- uid: Scenario.BaseSubResourceDescription`3.ParentDescription
+  name: ParentDescription
+  href: api/Scenario.BaseSubResourceDescription-3.html#Scenario_BaseSubResourceDescription_3_ParentDescription
+  commentId: P:Scenario.BaseSubResourceDescription`3.ParentDescription
+  fullName: Scenario.BaseSubResourceDescription<TScenarioBuilder, TParentResource, TSubResource>.ParentDescription
+  fullName.vb: Scenario.BaseSubResourceDescription(Of TScenarioBuilder, TParentResource, TSubResource).ParentDescription
+  nameWithType: BaseSubResourceDescription<TScenarioBuilder, TParentResource, TSubResource>.ParentDescription
+  nameWithType.vb: BaseSubResourceDescription(Of TScenarioBuilder, TParentResource, TSubResource).ParentDescription
+- uid: Scenario.BaseSubResourceDescription`3.ParentDescription*
+  name: ParentDescription
+  href: api/Scenario.BaseSubResourceDescription-3.html#Scenario_BaseSubResourceDescription_3_ParentDescription_
+  commentId: Overload:Scenario.BaseSubResourceDescription`3.ParentDescription
+  isSpec: "True"
+  fullName: Scenario.BaseSubResourceDescription<TScenarioBuilder, TParentResource, TSubResource>.ParentDescription
+  fullName.vb: Scenario.BaseSubResourceDescription(Of TScenarioBuilder, TParentResource, TSubResource).ParentDescription
+  nameWithType: BaseSubResourceDescription<TScenarioBuilder, TParentResource, TSubResource>.ParentDescription
+  nameWithType.vb: BaseSubResourceDescription(Of TScenarioBuilder, TParentResource, TSubResource).ParentDescription
+- uid: Scenario.EFCore
+  name: Scenario.EFCore
+  href: api/Scenario.EFCore.html
+  commentId: N:Scenario.EFCore
+  fullName: Scenario.EFCore
+  nameWithType: Scenario.EFCore
+- uid: Scenario.EFCore.IConnectionProvider`1
+  name: IConnectionProvider<TContext>
+  href: api/Scenario.EFCore.IConnectionProvider-1.html
+  commentId: T:Scenario.EFCore.IConnectionProvider`1
+  name.vb: IConnectionProvider(Of TContext)
+  fullName: Scenario.EFCore.IConnectionProvider<TContext>
+  fullName.vb: Scenario.EFCore.IConnectionProvider(Of TContext)
+  nameWithType: IConnectionProvider<TContext>
+  nameWithType.vb: IConnectionProvider(Of TContext)
+- uid: Scenario.EFCore.IConnectionProvider`1.Connection
+  name: Connection
+  href: api/Scenario.EFCore.IConnectionProvider-1.html#Scenario_EFCore_IConnectionProvider_1_Connection
+  commentId: P:Scenario.EFCore.IConnectionProvider`1.Connection
+  fullName: Scenario.EFCore.IConnectionProvider<TContext>.Connection
+  fullName.vb: Scenario.EFCore.IConnectionProvider(Of TContext).Connection
+  nameWithType: IConnectionProvider<TContext>.Connection
+  nameWithType.vb: IConnectionProvider(Of TContext).Connection
+- uid: Scenario.EFCore.IConnectionProvider`1.Connection*
+  name: Connection
+  href: api/Scenario.EFCore.IConnectionProvider-1.html#Scenario_EFCore_IConnectionProvider_1_Connection_
+  commentId: Overload:Scenario.EFCore.IConnectionProvider`1.Connection
+  isSpec: "True"
+  fullName: Scenario.EFCore.IConnectionProvider<TContext>.Connection
+  fullName.vb: Scenario.EFCore.IConnectionProvider(Of TContext).Connection
+  nameWithType: IConnectionProvider<TContext>.Connection
+  nameWithType.vb: IConnectionProvider(Of TContext).Connection
+- uid: Scenario.EFCore.IConnectionProvider`1.Options
+  name: Options
+  href: api/Scenario.EFCore.IConnectionProvider-1.html#Scenario_EFCore_IConnectionProvider_1_Options
+  commentId: P:Scenario.EFCore.IConnectionProvider`1.Options
+  fullName: Scenario.EFCore.IConnectionProvider<TContext>.Options
+  fullName.vb: Scenario.EFCore.IConnectionProvider(Of TContext).Options
+  nameWithType: IConnectionProvider<TContext>.Options
+  nameWithType.vb: IConnectionProvider(Of TContext).Options
+- uid: Scenario.EFCore.IConnectionProvider`1.Options*
+  name: Options
+  href: api/Scenario.EFCore.IConnectionProvider-1.html#Scenario_EFCore_IConnectionProvider_1_Options_
+  commentId: Overload:Scenario.EFCore.IConnectionProvider`1.Options
+  isSpec: "True"
+  fullName: Scenario.EFCore.IConnectionProvider<TContext>.Options
+  fullName.vb: Scenario.EFCore.IConnectionProvider(Of TContext).Options
+  nameWithType: IConnectionProvider<TContext>.Options
+  nameWithType.vb: IConnectionProvider(Of TContext).Options
+- uid: Scenario.EFCore.ScenarioEfCoreExtensions
+  name: ScenarioEfCoreExtensions
+  href: api/Scenario.EFCore.ScenarioEfCoreExtensions.html
+  commentId: T:Scenario.EFCore.ScenarioEfCoreExtensions
+  fullName: Scenario.EFCore.ScenarioEfCoreExtensions
+  nameWithType: ScenarioEfCoreExtensions
+- uid: Scenario.EFCore.ScenarioEfCoreExtensions.UseOnDiskSqliteDbContext*
+  name: UseOnDiskSqliteDbContext
+  href: api/Scenario.EFCore.ScenarioEfCoreExtensions.html#Scenario_EFCore_ScenarioEfCoreExtensions_UseOnDiskSqliteDbContext_
+  commentId: Overload:Scenario.EFCore.ScenarioEfCoreExtensions.UseOnDiskSqliteDbContext
+  isSpec: "True"
+  fullName: Scenario.EFCore.ScenarioEfCoreExtensions.UseOnDiskSqliteDbContext
+  nameWithType: ScenarioEfCoreExtensions.UseOnDiskSqliteDbContext
+- uid: Scenario.EFCore.ScenarioEfCoreExtensions.UseOnDiskSqliteDbContext``1(IServiceCollection)
+  name: UseOnDiskSqliteDbContext<TContext>(IServiceCollection)
+  href: api/Scenario.EFCore.ScenarioEfCoreExtensions.html#Scenario_EFCore_ScenarioEfCoreExtensions_UseOnDiskSqliteDbContext__1_IServiceCollection_
+  commentId: M:Scenario.EFCore.ScenarioEfCoreExtensions.UseOnDiskSqliteDbContext``1(IServiceCollection)
+  name.vb: UseOnDiskSqliteDbContext(Of TContext)(IServiceCollection)
+  fullName: Scenario.EFCore.ScenarioEfCoreExtensions.UseOnDiskSqliteDbContext<TContext>(IServiceCollection)
+  fullName.vb: Scenario.EFCore.ScenarioEfCoreExtensions.UseOnDiskSqliteDbContext(Of TContext)(IServiceCollection)
+  nameWithType: ScenarioEfCoreExtensions.UseOnDiskSqliteDbContext<TContext>(IServiceCollection)
+  nameWithType.vb: ScenarioEfCoreExtensions.UseOnDiskSqliteDbContext(Of TContext)(IServiceCollection)
+- uid: Scenario.EFCore.ScenarioEfCoreExtensions.WithMigrations*
+  name: WithMigrations
+  href: api/Scenario.EFCore.ScenarioEfCoreExtensions.html#Scenario_EFCore_ScenarioEfCoreExtensions_WithMigrations_
+  commentId: Overload:Scenario.EFCore.ScenarioEfCoreExtensions.WithMigrations
+  isSpec: "True"
+  fullName: Scenario.EFCore.ScenarioEfCoreExtensions.WithMigrations
+  nameWithType: ScenarioEfCoreExtensions.WithMigrations
+- uid: Scenario.EFCore.ScenarioEfCoreExtensions.WithMigrations``1(IServiceScope)
+  name: WithMigrations<TDbContext>(IServiceScope)
+  href: api/Scenario.EFCore.ScenarioEfCoreExtensions.html#Scenario_EFCore_ScenarioEfCoreExtensions_WithMigrations__1_IServiceScope_
+  commentId: M:Scenario.EFCore.ScenarioEfCoreExtensions.WithMigrations``1(IServiceScope)
+  name.vb: WithMigrations(Of TDbContext)(IServiceScope)
+  fullName: Scenario.EFCore.ScenarioEfCoreExtensions.WithMigrations<TDbContext>(IServiceScope)
+  fullName.vb: Scenario.EFCore.ScenarioEfCoreExtensions.WithMigrations(Of TDbContext)(IServiceScope)
+  nameWithType: ScenarioEfCoreExtensions.WithMigrations<TDbContext>(IServiceScope)
+  nameWithType.vb: ScenarioEfCoreExtensions.WithMigrations(Of TDbContext)(IServiceScope)
+- uid: Scenario.EFCore.SqliteConnectionProvider`1
+  name: SqliteConnectionProvider<TContext>
+  href: api/Scenario.EFCore.SqliteConnectionProvider-1.html
+  commentId: T:Scenario.EFCore.SqliteConnectionProvider`1
+  name.vb: SqliteConnectionProvider(Of TContext)
+  fullName: Scenario.EFCore.SqliteConnectionProvider<TContext>
+  fullName.vb: Scenario.EFCore.SqliteConnectionProvider(Of TContext)
+  nameWithType: SqliteConnectionProvider<TContext>
+  nameWithType.vb: SqliteConnectionProvider(Of TContext)
+- uid: Scenario.EFCore.SqliteConnectionProvider`1.#ctor(System.Nullable{Action{SqliteDbContextOptionsBuilder}})
+  name: SqliteConnectionProvider(Nullable<Action<SqliteDbContextOptionsBuilder>>)
+  href: api/Scenario.EFCore.SqliteConnectionProvider-1.html#Scenario_EFCore_SqliteConnectionProvider_1__ctor_System_Nullable_Action_SqliteDbContextOptionsBuilder___
+  commentId: M:Scenario.EFCore.SqliteConnectionProvider`1.#ctor(System.Nullable{Action{SqliteDbContextOptionsBuilder}})
+  name.vb: SqliteConnectionProvider(Nullable(Of Action(Of SqliteDbContextOptionsBuilder)))
+  fullName: Scenario.EFCore.SqliteConnectionProvider<TContext>.SqliteConnectionProvider(System.Nullable<Action<SqliteDbContextOptionsBuilder>>)
+  fullName.vb: Scenario.EFCore.SqliteConnectionProvider(Of TContext).SqliteConnectionProvider(System.Nullable(Of Action(Of SqliteDbContextOptionsBuilder)))
+  nameWithType: SqliteConnectionProvider<TContext>.SqliteConnectionProvider(Nullable<Action<SqliteDbContextOptionsBuilder>>)
+  nameWithType.vb: SqliteConnectionProvider(Of TContext).SqliteConnectionProvider(Nullable(Of Action(Of SqliteDbContextOptionsBuilder)))
+- uid: Scenario.EFCore.SqliteConnectionProvider`1.#ctor*
+  name: SqliteConnectionProvider
+  href: api/Scenario.EFCore.SqliteConnectionProvider-1.html#Scenario_EFCore_SqliteConnectionProvider_1__ctor_
+  commentId: Overload:Scenario.EFCore.SqliteConnectionProvider`1.#ctor
+  isSpec: "True"
+  fullName: Scenario.EFCore.SqliteConnectionProvider<TContext>.SqliteConnectionProvider
+  fullName.vb: Scenario.EFCore.SqliteConnectionProvider(Of TContext).SqliteConnectionProvider
+  nameWithType: SqliteConnectionProvider<TContext>.SqliteConnectionProvider
+  nameWithType.vb: SqliteConnectionProvider(Of TContext).SqliteConnectionProvider
+- uid: Scenario.EFCore.SqliteConnectionProvider`1.Connection
+  name: Connection
+  href: api/Scenario.EFCore.SqliteConnectionProvider-1.html#Scenario_EFCore_SqliteConnectionProvider_1_Connection
+  commentId: P:Scenario.EFCore.SqliteConnectionProvider`1.Connection
+  fullName: Scenario.EFCore.SqliteConnectionProvider<TContext>.Connection
+  fullName.vb: Scenario.EFCore.SqliteConnectionProvider(Of TContext).Connection
+  nameWithType: SqliteConnectionProvider<TContext>.Connection
+  nameWithType.vb: SqliteConnectionProvider(Of TContext).Connection
+- uid: Scenario.EFCore.SqliteConnectionProvider`1.Connection*
+  name: Connection
+  href: api/Scenario.EFCore.SqliteConnectionProvider-1.html#Scenario_EFCore_SqliteConnectionProvider_1_Connection_
+  commentId: Overload:Scenario.EFCore.SqliteConnectionProvider`1.Connection
+  isSpec: "True"
+  fullName: Scenario.EFCore.SqliteConnectionProvider<TContext>.Connection
+  fullName.vb: Scenario.EFCore.SqliteConnectionProvider(Of TContext).Connection
+  nameWithType: SqliteConnectionProvider<TContext>.Connection
+  nameWithType.vb: SqliteConnectionProvider(Of TContext).Connection
+- uid: Scenario.EFCore.SqliteConnectionProvider`1.Dispose
+  name: Dispose()
+  href: api/Scenario.EFCore.SqliteConnectionProvider-1.html#Scenario_EFCore_SqliteConnectionProvider_1_Dispose
+  commentId: M:Scenario.EFCore.SqliteConnectionProvider`1.Dispose
+  fullName: Scenario.EFCore.SqliteConnectionProvider<TContext>.Dispose()
+  fullName.vb: Scenario.EFCore.SqliteConnectionProvider(Of TContext).Dispose()
+  nameWithType: SqliteConnectionProvider<TContext>.Dispose()
+  nameWithType.vb: SqliteConnectionProvider(Of TContext).Dispose()
+- uid: Scenario.EFCore.SqliteConnectionProvider`1.Dispose*
+  name: Dispose
+  href: api/Scenario.EFCore.SqliteConnectionProvider-1.html#Scenario_EFCore_SqliteConnectionProvider_1_Dispose_
+  commentId: Overload:Scenario.EFCore.SqliteConnectionProvider`1.Dispose
+  isSpec: "True"
+  fullName: Scenario.EFCore.SqliteConnectionProvider<TContext>.Dispose
+  fullName.vb: Scenario.EFCore.SqliteConnectionProvider(Of TContext).Dispose
+  nameWithType: SqliteConnectionProvider<TContext>.Dispose
+  nameWithType.vb: SqliteConnectionProvider(Of TContext).Dispose
+- uid: Scenario.EFCore.SqliteConnectionProvider`1.Options
+  name: Options
+  href: api/Scenario.EFCore.SqliteConnectionProvider-1.html#Scenario_EFCore_SqliteConnectionProvider_1_Options
+  commentId: P:Scenario.EFCore.SqliteConnectionProvider`1.Options
+  fullName: Scenario.EFCore.SqliteConnectionProvider<TContext>.Options
+  fullName.vb: Scenario.EFCore.SqliteConnectionProvider(Of TContext).Options
+  nameWithType: SqliteConnectionProvider<TContext>.Options
+  nameWithType.vb: SqliteConnectionProvider(Of TContext).Options
+- uid: Scenario.EFCore.SqliteConnectionProvider`1.Options*
+  name: Options
+  href: api/Scenario.EFCore.SqliteConnectionProvider-1.html#Scenario_EFCore_SqliteConnectionProvider_1_Options_
+  commentId: Overload:Scenario.EFCore.SqliteConnectionProvider`1.Options
+  isSpec: "True"
+  fullName: Scenario.EFCore.SqliteConnectionProvider<TContext>.Options
+  fullName.vb: Scenario.EFCore.SqliteConnectionProvider(Of TContext).Options
+  nameWithType: SqliteConnectionProvider<TContext>.Options
+  nameWithType.vb: SqliteConnectionProvider(Of TContext).Options
+- uid: Scenario.FakeS3
+  name: Scenario.FakeS3
+  href: api/Scenario.FakeS3.html
+  commentId: N:Scenario.FakeS3
+  fullName: Scenario.FakeS3
+  nameWithType: Scenario.FakeS3
+- uid: Scenario.FakeS3.ScenarioFakeS3Extensions
+  name: ScenarioFakeS3Extensions
+  href: api/Scenario.FakeS3.ScenarioFakeS3Extensions.html
+  commentId: T:Scenario.FakeS3.ScenarioFakeS3Extensions
+  fullName: Scenario.FakeS3.ScenarioFakeS3Extensions
+  nameWithType: ScenarioFakeS3Extensions
+- uid: Scenario.FakeS3.ScenarioFakeS3Extensions.UseFileStoreBuckets(IServiceCollection)
+  name: UseFileStoreBuckets(IServiceCollection)
+  href: api/Scenario.FakeS3.ScenarioFakeS3Extensions.html#Scenario_FakeS3_ScenarioFakeS3Extensions_UseFileStoreBuckets_IServiceCollection_
+  commentId: M:Scenario.FakeS3.ScenarioFakeS3Extensions.UseFileStoreBuckets(IServiceCollection)
+  fullName: Scenario.FakeS3.ScenarioFakeS3Extensions.UseFileStoreBuckets(IServiceCollection)
+  nameWithType: ScenarioFakeS3Extensions.UseFileStoreBuckets(IServiceCollection)
+- uid: Scenario.FakeS3.ScenarioFakeS3Extensions.UseFileStoreBuckets(IServiceCollection,System.String,System.Boolean)
+  name: UseFileStoreBuckets(IServiceCollection, String, Boolean)
+  href: api/Scenario.FakeS3.ScenarioFakeS3Extensions.html#Scenario_FakeS3_ScenarioFakeS3Extensions_UseFileStoreBuckets_IServiceCollection_System_String_System_Boolean_
+  commentId: M:Scenario.FakeS3.ScenarioFakeS3Extensions.UseFileStoreBuckets(IServiceCollection,System.String,System.Boolean)
+  fullName: Scenario.FakeS3.ScenarioFakeS3Extensions.UseFileStoreBuckets(IServiceCollection, System.String, System.Boolean)
+  nameWithType: ScenarioFakeS3Extensions.UseFileStoreBuckets(IServiceCollection, String, Boolean)
+- uid: Scenario.FakeS3.ScenarioFakeS3Extensions.UseFileStoreBuckets*
+  name: UseFileStoreBuckets
+  href: api/Scenario.FakeS3.ScenarioFakeS3Extensions.html#Scenario_FakeS3_ScenarioFakeS3Extensions_UseFileStoreBuckets_
+  commentId: Overload:Scenario.FakeS3.ScenarioFakeS3Extensions.UseFileStoreBuckets
+  isSpec: "True"
+  fullName: Scenario.FakeS3.ScenarioFakeS3Extensions.UseFileStoreBuckets
+  nameWithType: ScenarioFakeS3Extensions.UseFileStoreBuckets
+- uid: Scenario.FakeS3.ScenarioFakeS3Extensions.UseInMemoryS3(IServiceCollection)
+  name: UseInMemoryS3(IServiceCollection)
+  href: api/Scenario.FakeS3.ScenarioFakeS3Extensions.html#Scenario_FakeS3_ScenarioFakeS3Extensions_UseInMemoryS3_IServiceCollection_
+  commentId: M:Scenario.FakeS3.ScenarioFakeS3Extensions.UseInMemoryS3(IServiceCollection)
+  fullName: Scenario.FakeS3.ScenarioFakeS3Extensions.UseInMemoryS3(IServiceCollection)
+  nameWithType: ScenarioFakeS3Extensions.UseInMemoryS3(IServiceCollection)
+- uid: Scenario.FakeS3.ScenarioFakeS3Extensions.UseInMemoryS3*
+  name: UseInMemoryS3
+  href: api/Scenario.FakeS3.ScenarioFakeS3Extensions.html#Scenario_FakeS3_ScenarioFakeS3Extensions_UseInMemoryS3_
+  commentId: Overload:Scenario.FakeS3.ScenarioFakeS3Extensions.UseInMemoryS3
+  isSpec: "True"
+  fullName: Scenario.FakeS3.ScenarioFakeS3Extensions.UseInMemoryS3
+  nameWithType: ScenarioFakeS3Extensions.UseInMemoryS3
+- uid: Scenario.FakeS3.ScenarioFakeS3Extensions.UseOnDiskS3(IServiceCollection,System.Nullable{System.String},System.Boolean)
+  name: UseOnDiskS3(IServiceCollection, Nullable<String>, Boolean)
+  href: api/Scenario.FakeS3.ScenarioFakeS3Extensions.html#Scenario_FakeS3_ScenarioFakeS3Extensions_UseOnDiskS3_IServiceCollection_System_Nullable_System_String__System_Boolean_
+  commentId: M:Scenario.FakeS3.ScenarioFakeS3Extensions.UseOnDiskS3(IServiceCollection,System.Nullable{System.String},System.Boolean)
+  name.vb: UseOnDiskS3(IServiceCollection, Nullable(Of String), Boolean)
+  fullName: Scenario.FakeS3.ScenarioFakeS3Extensions.UseOnDiskS3(IServiceCollection, System.Nullable<System.String>, System.Boolean)
+  fullName.vb: Scenario.FakeS3.ScenarioFakeS3Extensions.UseOnDiskS3(IServiceCollection, System.Nullable(Of System.String), System.Boolean)
+  nameWithType: ScenarioFakeS3Extensions.UseOnDiskS3(IServiceCollection, Nullable<String>, Boolean)
+  nameWithType.vb: ScenarioFakeS3Extensions.UseOnDiskS3(IServiceCollection, Nullable(Of String), Boolean)
+- uid: Scenario.FakeS3.ScenarioFakeS3Extensions.UseOnDiskS3*
+  name: UseOnDiskS3
+  href: api/Scenario.FakeS3.ScenarioFakeS3Extensions.html#Scenario_FakeS3_ScenarioFakeS3Extensions_UseOnDiskS3_
+  commentId: Overload:Scenario.FakeS3.ScenarioFakeS3Extensions.UseOnDiskS3
+  isSpec: "True"
+  fullName: Scenario.FakeS3.ScenarioFakeS3Extensions.UseOnDiskS3
+  nameWithType: ScenarioFakeS3Extensions.UseOnDiskS3
+- uid: Scenario.IScenario
+  name: IScenario
+  href: api/Scenario.IScenario.html
+  commentId: T:Scenario.IScenario
+  fullName: Scenario.IScenario
+  nameWithType: IScenario
+- uid: Scenario.IScenario.ResourceProvider
+  name: ResourceProvider
+  href: api/Scenario.IScenario.html#Scenario_IScenario_ResourceProvider
+  commentId: P:Scenario.IScenario.ResourceProvider
+  fullName: Scenario.IScenario.ResourceProvider
+  nameWithType: IScenario.ResourceProvider
+- uid: Scenario.IScenario.ResourceProvider*
+  name: ResourceProvider
+  href: api/Scenario.IScenario.html#Scenario_IScenario_ResourceProvider_
+  commentId: Overload:Scenario.IScenario.ResourceProvider
+  isSpec: "True"
+  fullName: Scenario.IScenario.ResourceProvider
+  nameWithType: IScenario.ResourceProvider
+- uid: Scenario.IScenario.ServiceProvider
+  name: ServiceProvider
+  href: api/Scenario.IScenario.html#Scenario_IScenario_ServiceProvider
+  commentId: P:Scenario.IScenario.ServiceProvider
+  fullName: Scenario.IScenario.ServiceProvider
+  nameWithType: IScenario.ServiceProvider
+- uid: Scenario.IScenario.ServiceProvider*
+  name: ServiceProvider
+  href: api/Scenario.IScenario.html#Scenario_IScenario_ServiceProvider_
+  commentId: Overload:Scenario.IScenario.ServiceProvider
+  isSpec: "True"
+  fullName: Scenario.IScenario.ServiceProvider
+  nameWithType: IScenario.ServiceProvider
+- uid: Scenario.IScenarioBuilder
+  name: IScenarioBuilder
+  href: api/Scenario.IScenarioBuilder.html
+  commentId: T:Scenario.IScenarioBuilder
+  fullName: Scenario.IScenarioBuilder
+  nameWithType: IScenarioBuilder
+- uid: Scenario.IScenarioBuilder.BuildAsync
+  name: BuildAsync()
+  href: api/Scenario.IScenarioBuilder.html#Scenario_IScenarioBuilder_BuildAsync
+  commentId: M:Scenario.IScenarioBuilder.BuildAsync
+  fullName: Scenario.IScenarioBuilder.BuildAsync()
+  nameWithType: IScenarioBuilder.BuildAsync()
+- uid: Scenario.IScenarioBuilder.BuildAsync*
+  name: BuildAsync
+  href: api/Scenario.IScenarioBuilder.html#Scenario_IScenarioBuilder_BuildAsync_
+  commentId: Overload:Scenario.IScenarioBuilder.BuildAsync
+  isSpec: "True"
+  fullName: Scenario.IScenarioBuilder.BuildAsync
+  nameWithType: IScenarioBuilder.BuildAsync
+- uid: Scenario.IScenarioBuilder.Use(Action{IServiceCollection})
+  name: Use(Action<IServiceCollection>)
+  href: api/Scenario.IScenarioBuilder.html#Scenario_IScenarioBuilder_Use_Action_IServiceCollection__
+  commentId: M:Scenario.IScenarioBuilder.Use(Action{IServiceCollection})
+  name.vb: Use(Action(Of IServiceCollection))
+  fullName: Scenario.IScenarioBuilder.Use(Action<IServiceCollection>)
+  fullName.vb: Scenario.IScenarioBuilder.Use(Action(Of IServiceCollection))
+  nameWithType: IScenarioBuilder.Use(Action<IServiceCollection>)
+  nameWithType.vb: IScenarioBuilder.Use(Action(Of IServiceCollection))
+- uid: Scenario.IScenarioBuilder.Use*
+  name: Use
+  href: api/Scenario.IScenarioBuilder.html#Scenario_IScenarioBuilder_Use_
+  commentId: Overload:Scenario.IScenarioBuilder.Use
+  isSpec: "True"
+  fullName: Scenario.IScenarioBuilder.Use
+  nameWithType: IScenarioBuilder.Use
+- uid: Scenario.IScenarioBuilder.With(Func{IServiceScope,Task{System.Nullable{System.Object}}},System.Nullable{Action{System.Nullable{System.Object}}})
+  name: With(Func<IServiceScope, Task<Nullable<Object>>>, Nullable<Action<Nullable<Object>>>)
+  href: api/Scenario.IScenarioBuilder.html#Scenario_IScenarioBuilder_With_Func_IServiceScope_Task_System_Nullable_System_Object____System_Nullable_Action_System_Nullable_System_Object____
+  commentId: M:Scenario.IScenarioBuilder.With(Func{IServiceScope,Task{System.Nullable{System.Object}}},System.Nullable{Action{System.Nullable{System.Object}}})
+  name.vb: With(Func(Of IServiceScope, Task(Of Nullable(Of Object))), Nullable(Of Action(Of Nullable(Of Object))))
+  fullName: Scenario.IScenarioBuilder.With(Func<IServiceScope, Task<System.Nullable<System.Object>>>, System.Nullable<Action<System.Nullable<System.Object>>>)
+  fullName.vb: Scenario.IScenarioBuilder.With(Func(Of IServiceScope, Task(Of System.Nullable(Of System.Object))), System.Nullable(Of Action(Of System.Nullable(Of System.Object))))
+  nameWithType: IScenarioBuilder.With(Func<IServiceScope, Task<Nullable<Object>>>, Nullable<Action<Nullable<Object>>>)
+  nameWithType.vb: IScenarioBuilder.With(Func(Of IServiceScope, Task(Of Nullable(Of Object))), Nullable(Of Action(Of Nullable(Of Object))))
+- uid: Scenario.IScenarioBuilder.With(Func{IServiceScope,Task})
+  name: With(Func<IServiceScope, Task>)
+  href: api/Scenario.IScenarioBuilder.html#Scenario_IScenarioBuilder_With_Func_IServiceScope_Task__
+  commentId: M:Scenario.IScenarioBuilder.With(Func{IServiceScope,Task})
+  name.vb: With(Func(Of IServiceScope, Task))
+  fullName: Scenario.IScenarioBuilder.With(Func<IServiceScope, Task>)
+  fullName.vb: Scenario.IScenarioBuilder.With(Func(Of IServiceScope, Task))
+  nameWithType: IScenarioBuilder.With(Func<IServiceScope, Task>)
+  nameWithType.vb: IScenarioBuilder.With(Func(Of IServiceScope, Task))
+- uid: Scenario.IScenarioBuilder.With*
+  name: With
+  href: api/Scenario.IScenarioBuilder.html#Scenario_IScenarioBuilder_With_
+  commentId: Overload:Scenario.IScenarioBuilder.With
+  isSpec: "True"
+  fullName: Scenario.IScenarioBuilder.With
+  nameWithType: IScenarioBuilder.With
+- uid: Scenario.IScenarioBuilderResourceDescription`2
+  name: IScenarioBuilderResourceDescription<TScenarioBuilder, TResource>
+  href: api/Scenario.IScenarioBuilderResourceDescription-2.html
+  commentId: T:Scenario.IScenarioBuilderResourceDescription`2
+  name.vb: IScenarioBuilderResourceDescription(Of TScenarioBuilder, TResource)
+  fullName: Scenario.IScenarioBuilderResourceDescription<TScenarioBuilder, TResource>
+  fullName.vb: Scenario.IScenarioBuilderResourceDescription(Of TScenarioBuilder, TResource)
+  nameWithType: IScenarioBuilderResourceDescription<TScenarioBuilder, TResource>
+  nameWithType.vb: IScenarioBuilderResourceDescription(Of TScenarioBuilder, TResource)
+- uid: Scenario.IScenarioBuilderResourceDescription`2.Builder
+  name: Builder
+  href: api/Scenario.IScenarioBuilderResourceDescription-2.html#Scenario_IScenarioBuilderResourceDescription_2_Builder
+  commentId: P:Scenario.IScenarioBuilderResourceDescription`2.Builder
+  fullName: Scenario.IScenarioBuilderResourceDescription<TScenarioBuilder, TResource>.Builder
+  fullName.vb: Scenario.IScenarioBuilderResourceDescription(Of TScenarioBuilder, TResource).Builder
+  nameWithType: IScenarioBuilderResourceDescription<TScenarioBuilder, TResource>.Builder
+  nameWithType.vb: IScenarioBuilderResourceDescription(Of TScenarioBuilder, TResource).Builder
+- uid: Scenario.IScenarioBuilderResourceDescription`2.Builder*
+  name: Builder
+  href: api/Scenario.IScenarioBuilderResourceDescription-2.html#Scenario_IScenarioBuilderResourceDescription_2_Builder_
+  commentId: Overload:Scenario.IScenarioBuilderResourceDescription`2.Builder
+  isSpec: "True"
+  fullName: Scenario.IScenarioBuilderResourceDescription<TScenarioBuilder, TResource>.Builder
+  fullName.vb: Scenario.IScenarioBuilderResourceDescription(Of TScenarioBuilder, TResource).Builder
+  nameWithType: IScenarioBuilderResourceDescription<TScenarioBuilder, TResource>.Builder
+  nameWithType.vb: IScenarioBuilderResourceDescription(Of TScenarioBuilder, TResource).Builder
+- uid: Scenario.IScenarioBuilderResourceDescription`2.Resources
+  name: Resources
+  href: api/Scenario.IScenarioBuilderResourceDescription-2.html#Scenario_IScenarioBuilderResourceDescription_2_Resources
+  commentId: P:Scenario.IScenarioBuilderResourceDescription`2.Resources
+  fullName: Scenario.IScenarioBuilderResourceDescription<TScenarioBuilder, TResource>.Resources
+  fullName.vb: Scenario.IScenarioBuilderResourceDescription(Of TScenarioBuilder, TResource).Resources
+  nameWithType: IScenarioBuilderResourceDescription<TScenarioBuilder, TResource>.Resources
+  nameWithType.vb: IScenarioBuilderResourceDescription(Of TScenarioBuilder, TResource).Resources
+- uid: Scenario.IScenarioBuilderResourceDescription`2.Resources*
+  name: Resources
+  href: api/Scenario.IScenarioBuilderResourceDescription-2.html#Scenario_IScenarioBuilderResourceDescription_2_Resources_
+  commentId: Overload:Scenario.IScenarioBuilderResourceDescription`2.Resources
+  isSpec: "True"
+  fullName: Scenario.IScenarioBuilderResourceDescription<TScenarioBuilder, TResource>.Resources
+  fullName.vb: Scenario.IScenarioBuilderResourceDescription(Of TScenarioBuilder, TResource).Resources
+  nameWithType: IScenarioBuilderResourceDescription<TScenarioBuilder, TResource>.Resources
+  nameWithType.vb: IScenarioBuilderResourceDescription(Of TScenarioBuilder, TResource).Resources
+- uid: Scenario.IScenarioBuilderSubResourceDescription`3
+  name: IScenarioBuilderSubResourceDescription<TScenarioBuilder, TParentResource, TSubResource>
+  href: api/Scenario.IScenarioBuilderSubResourceDescription-3.html
+  commentId: T:Scenario.IScenarioBuilderSubResourceDescription`3
+  name.vb: IScenarioBuilderSubResourceDescription(Of TScenarioBuilder, TParentResource, TSubResource)
+  fullName: Scenario.IScenarioBuilderSubResourceDescription<TScenarioBuilder, TParentResource, TSubResource>
+  fullName.vb: Scenario.IScenarioBuilderSubResourceDescription(Of TScenarioBuilder, TParentResource, TSubResource)
+  nameWithType: IScenarioBuilderSubResourceDescription<TScenarioBuilder, TParentResource, TSubResource>
+  nameWithType.vb: IScenarioBuilderSubResourceDescription(Of TScenarioBuilder, TParentResource, TSubResource)
+- uid: Scenario.IScenarioBuilderSubResourceDescription`3.ParentAs*
+  name: ParentAs
+  href: api/Scenario.IScenarioBuilderSubResourceDescription-3.html#Scenario_IScenarioBuilderSubResourceDescription_3_ParentAs_
+  commentId: Overload:Scenario.IScenarioBuilderSubResourceDescription`3.ParentAs
+  isSpec: "True"
+  fullName: Scenario.IScenarioBuilderSubResourceDescription<TScenarioBuilder, TParentResource, TSubResource>.ParentAs
+  fullName.vb: Scenario.IScenarioBuilderSubResourceDescription(Of TScenarioBuilder, TParentResource, TSubResource).ParentAs
+  nameWithType: IScenarioBuilderSubResourceDescription<TScenarioBuilder, TParentResource, TSubResource>.ParentAs
+  nameWithType.vb: IScenarioBuilderSubResourceDescription(Of TScenarioBuilder, TParentResource, TSubResource).ParentAs
+- uid: Scenario.IScenarioBuilderSubResourceDescription`3.ParentAs``1
+  name: ParentAs<TDependent>()
+  href: api/Scenario.IScenarioBuilderSubResourceDescription-3.html#Scenario_IScenarioBuilderSubResourceDescription_3_ParentAs__1
+  commentId: M:Scenario.IScenarioBuilderSubResourceDescription`3.ParentAs``1
+  name.vb: ParentAs(Of TDependent)()
+  fullName: Scenario.IScenarioBuilderSubResourceDescription<TScenarioBuilder, TParentResource, TSubResource>.ParentAs<TDependent>()
+  fullName.vb: Scenario.IScenarioBuilderSubResourceDescription(Of TScenarioBuilder, TParentResource, TSubResource).ParentAs(Of TDependent)()
+  nameWithType: IScenarioBuilderSubResourceDescription<TScenarioBuilder, TParentResource, TSubResource>.ParentAs<TDependent>()
+  nameWithType.vb: IScenarioBuilderSubResourceDescription(Of TScenarioBuilder, TParentResource, TSubResource).ParentAs(Of TDependent)()
+- uid: Scenario.IScenarioBuilderSubResourceDescription`3.ParentDescription
+  name: ParentDescription
+  href: api/Scenario.IScenarioBuilderSubResourceDescription-3.html#Scenario_IScenarioBuilderSubResourceDescription_3_ParentDescription
+  commentId: P:Scenario.IScenarioBuilderSubResourceDescription`3.ParentDescription
+  fullName: Scenario.IScenarioBuilderSubResourceDescription<TScenarioBuilder, TParentResource, TSubResource>.ParentDescription
+  fullName.vb: Scenario.IScenarioBuilderSubResourceDescription(Of TScenarioBuilder, TParentResource, TSubResource).ParentDescription
+  nameWithType: IScenarioBuilderSubResourceDescription<TScenarioBuilder, TParentResource, TSubResource>.ParentDescription
+  nameWithType.vb: IScenarioBuilderSubResourceDescription(Of TScenarioBuilder, TParentResource, TSubResource).ParentDescription
+- uid: Scenario.IScenarioBuilderSubResourceDescription`3.ParentDescription*
+  name: ParentDescription
+  href: api/Scenario.IScenarioBuilderSubResourceDescription-3.html#Scenario_IScenarioBuilderSubResourceDescription_3_ParentDescription_
+  commentId: Overload:Scenario.IScenarioBuilderSubResourceDescription`3.ParentDescription
+  isSpec: "True"
+  fullName: Scenario.IScenarioBuilderSubResourceDescription<TScenarioBuilder, TParentResource, TSubResource>.ParentDescription
+  fullName.vb: Scenario.IScenarioBuilderSubResourceDescription(Of TScenarioBuilder, TParentResource, TSubResource).ParentDescription
+  nameWithType: IScenarioBuilderSubResourceDescription<TScenarioBuilder, TParentResource, TSubResource>.ParentDescription
+  nameWithType.vb: IScenarioBuilderSubResourceDescription(Of TScenarioBuilder, TParentResource, TSubResource).ParentDescription
+- uid: Scenario.Moq
+  name: Scenario.Moq
+  href: api/Scenario.Moq.html
+  commentId: N:Scenario.Moq
+  fullName: Scenario.Moq
+  nameWithType: Scenario.Moq
+- uid: Scenario.Moq.MockedResourceDescription`2
+  name: MockedResourceDescription<TScenarioBuilder, TMocked>
+  href: api/Scenario.Moq.MockedResourceDescription-2.html
+  commentId: T:Scenario.Moq.MockedResourceDescription`2
+  name.vb: MockedResourceDescription(Of TScenarioBuilder, TMocked)
+  fullName: Scenario.Moq.MockedResourceDescription<TScenarioBuilder, TMocked>
+  fullName.vb: Scenario.Moq.MockedResourceDescription(Of TScenarioBuilder, TMocked)
+  nameWithType: MockedResourceDescription<TScenarioBuilder, TMocked>
+  nameWithType.vb: MockedResourceDescription(Of TScenarioBuilder, TMocked)
+- uid: Scenario.Moq.MockedResourceDescription`2.#ctor(`0,System.Nullable{Action{System.Nullable{IReadOnlyCollection{`1}}}})
+  name: MockedResourceDescription(TScenarioBuilder, Nullable<Action<Nullable<IReadOnlyCollection<TMocked>>>>)
+  href: api/Scenario.Moq.MockedResourceDescription-2.html#Scenario_Moq_MockedResourceDescription_2__ctor__0_System_Nullable_Action_System_Nullable_IReadOnlyCollection__1_____
+  commentId: M:Scenario.Moq.MockedResourceDescription`2.#ctor(`0,System.Nullable{Action{System.Nullable{IReadOnlyCollection{`1}}}})
+  name.vb: MockedResourceDescription(TScenarioBuilder, Nullable(Of Action(Of Nullable(Of IReadOnlyCollection(Of TMocked)))))
+  fullName: Scenario.Moq.MockedResourceDescription<TScenarioBuilder, TMocked>.MockedResourceDescription(TScenarioBuilder, System.Nullable<Action<System.Nullable<IReadOnlyCollection<TMocked>>>>)
+  fullName.vb: Scenario.Moq.MockedResourceDescription(Of TScenarioBuilder, TMocked).MockedResourceDescription(TScenarioBuilder, System.Nullable(Of Action(Of System.Nullable(Of IReadOnlyCollection(Of TMocked)))))
+  nameWithType: MockedResourceDescription<TScenarioBuilder, TMocked>.MockedResourceDescription(TScenarioBuilder, Nullable<Action<Nullable<IReadOnlyCollection<TMocked>>>>)
+  nameWithType.vb: MockedResourceDescription(Of TScenarioBuilder, TMocked).MockedResourceDescription(TScenarioBuilder, Nullable(Of Action(Of Nullable(Of IReadOnlyCollection(Of TMocked)))))
+- uid: Scenario.Moq.MockedResourceDescription`2.#ctor(`0,System.Nullable{Action{System.Nullable{IReadOnlyCollection{`1}}}},Expression{Func{`1}},MockBehavior)
+  name: MockedResourceDescription(TScenarioBuilder, Nullable<Action<Nullable<IReadOnlyCollection<TMocked>>>>, Expression<Func<TMocked>>, MockBehavior)
+  href: api/Scenario.Moq.MockedResourceDescription-2.html#Scenario_Moq_MockedResourceDescription_2__ctor__0_System_Nullable_Action_System_Nullable_IReadOnlyCollection__1_____Expression_Func__1___MockBehavior_
+  commentId: M:Scenario.Moq.MockedResourceDescription`2.#ctor(`0,System.Nullable{Action{System.Nullable{IReadOnlyCollection{`1}}}},Expression{Func{`1}},MockBehavior)
+  name.vb: MockedResourceDescription(TScenarioBuilder, Nullable(Of Action(Of Nullable(Of IReadOnlyCollection(Of TMocked)))), Expression(Of Func(Of TMocked)), MockBehavior)
+  fullName: Scenario.Moq.MockedResourceDescription<TScenarioBuilder, TMocked>.MockedResourceDescription(TScenarioBuilder, System.Nullable<Action<System.Nullable<IReadOnlyCollection<TMocked>>>>, Expression<Func<TMocked>>, MockBehavior)
+  fullName.vb: Scenario.Moq.MockedResourceDescription(Of TScenarioBuilder, TMocked).MockedResourceDescription(TScenarioBuilder, System.Nullable(Of Action(Of System.Nullable(Of IReadOnlyCollection(Of TMocked)))), Expression(Of Func(Of TMocked)), MockBehavior)
+  nameWithType: MockedResourceDescription<TScenarioBuilder, TMocked>.MockedResourceDescription(TScenarioBuilder, Nullable<Action<Nullable<IReadOnlyCollection<TMocked>>>>, Expression<Func<TMocked>>, MockBehavior)
+  nameWithType.vb: MockedResourceDescription(Of TScenarioBuilder, TMocked).MockedResourceDescription(TScenarioBuilder, Nullable(Of Action(Of Nullable(Of IReadOnlyCollection(Of TMocked)))), Expression(Of Func(Of TMocked)), MockBehavior)
+- uid: Scenario.Moq.MockedResourceDescription`2.#ctor(`0,System.Nullable{Action{System.Nullable{IReadOnlyCollection{`1}}}},MockBehavior)
+  name: MockedResourceDescription(TScenarioBuilder, Nullable<Action<Nullable<IReadOnlyCollection<TMocked>>>>, MockBehavior)
+  href: api/Scenario.Moq.MockedResourceDescription-2.html#Scenario_Moq_MockedResourceDescription_2__ctor__0_System_Nullable_Action_System_Nullable_IReadOnlyCollection__1_____MockBehavior_
+  commentId: M:Scenario.Moq.MockedResourceDescription`2.#ctor(`0,System.Nullable{Action{System.Nullable{IReadOnlyCollection{`1}}}},MockBehavior)
+  name.vb: MockedResourceDescription(TScenarioBuilder, Nullable(Of Action(Of Nullable(Of IReadOnlyCollection(Of TMocked)))), MockBehavior)
+  fullName: Scenario.Moq.MockedResourceDescription<TScenarioBuilder, TMocked>.MockedResourceDescription(TScenarioBuilder, System.Nullable<Action<System.Nullable<IReadOnlyCollection<TMocked>>>>, MockBehavior)
+  fullName.vb: Scenario.Moq.MockedResourceDescription(Of TScenarioBuilder, TMocked).MockedResourceDescription(TScenarioBuilder, System.Nullable(Of Action(Of System.Nullable(Of IReadOnlyCollection(Of TMocked)))), MockBehavior)
+  nameWithType: MockedResourceDescription<TScenarioBuilder, TMocked>.MockedResourceDescription(TScenarioBuilder, Nullable<Action<Nullable<IReadOnlyCollection<TMocked>>>>, MockBehavior)
+  nameWithType.vb: MockedResourceDescription(Of TScenarioBuilder, TMocked).MockedResourceDescription(TScenarioBuilder, Nullable(Of Action(Of Nullable(Of IReadOnlyCollection(Of TMocked)))), MockBehavior)
+- uid: Scenario.Moq.MockedResourceDescription`2.#ctor(`0,System.Nullable{Action{System.Nullable{IReadOnlyCollection{`1}}}},MockBehavior,System.Object[])
+  name: MockedResourceDescription(TScenarioBuilder, Nullable<Action<Nullable<IReadOnlyCollection<TMocked>>>>, MockBehavior, Object[])
+  href: api/Scenario.Moq.MockedResourceDescription-2.html#Scenario_Moq_MockedResourceDescription_2__ctor__0_System_Nullable_Action_System_Nullable_IReadOnlyCollection__1_____MockBehavior_System_Object___
+  commentId: M:Scenario.Moq.MockedResourceDescription`2.#ctor(`0,System.Nullable{Action{System.Nullable{IReadOnlyCollection{`1}}}},MockBehavior,System.Object[])
+  name.vb: MockedResourceDescription(TScenarioBuilder, Nullable(Of Action(Of Nullable(Of IReadOnlyCollection(Of TMocked)))), MockBehavior, Object())
+  fullName: Scenario.Moq.MockedResourceDescription<TScenarioBuilder, TMocked>.MockedResourceDescription(TScenarioBuilder, System.Nullable<Action<System.Nullable<IReadOnlyCollection<TMocked>>>>, MockBehavior, System.Object[])
+  fullName.vb: Scenario.Moq.MockedResourceDescription(Of TScenarioBuilder, TMocked).MockedResourceDescription(TScenarioBuilder, System.Nullable(Of Action(Of System.Nullable(Of IReadOnlyCollection(Of TMocked)))), MockBehavior, System.Object())
+  nameWithType: MockedResourceDescription<TScenarioBuilder, TMocked>.MockedResourceDescription(TScenarioBuilder, Nullable<Action<Nullable<IReadOnlyCollection<TMocked>>>>, MockBehavior, Object[])
+  nameWithType.vb: MockedResourceDescription(Of TScenarioBuilder, TMocked).MockedResourceDescription(TScenarioBuilder, Nullable(Of Action(Of Nullable(Of IReadOnlyCollection(Of TMocked)))), MockBehavior, Object())
+- uid: Scenario.Moq.MockedResourceDescription`2.#ctor(`0,System.Nullable{Action{System.Nullable{IReadOnlyCollection{`1}}}},System.Object[])
+  name: MockedResourceDescription(TScenarioBuilder, Nullable<Action<Nullable<IReadOnlyCollection<TMocked>>>>, Object[])
+  href: api/Scenario.Moq.MockedResourceDescription-2.html#Scenario_Moq_MockedResourceDescription_2__ctor__0_System_Nullable_Action_System_Nullable_IReadOnlyCollection__1_____System_Object___
+  commentId: M:Scenario.Moq.MockedResourceDescription`2.#ctor(`0,System.Nullable{Action{System.Nullable{IReadOnlyCollection{`1}}}},System.Object[])
+  name.vb: MockedResourceDescription(TScenarioBuilder, Nullable(Of Action(Of Nullable(Of IReadOnlyCollection(Of TMocked)))), Object())
+  fullName: Scenario.Moq.MockedResourceDescription<TScenarioBuilder, TMocked>.MockedResourceDescription(TScenarioBuilder, System.Nullable<Action<System.Nullable<IReadOnlyCollection<TMocked>>>>, System.Object[])
+  fullName.vb: Scenario.Moq.MockedResourceDescription(Of TScenarioBuilder, TMocked).MockedResourceDescription(TScenarioBuilder, System.Nullable(Of Action(Of System.Nullable(Of IReadOnlyCollection(Of TMocked)))), System.Object())
+  nameWithType: MockedResourceDescription<TScenarioBuilder, TMocked>.MockedResourceDescription(TScenarioBuilder, Nullable<Action<Nullable<IReadOnlyCollection<TMocked>>>>, Object[])
+  nameWithType.vb: MockedResourceDescription(Of TScenarioBuilder, TMocked).MockedResourceDescription(TScenarioBuilder, Nullable(Of Action(Of Nullable(Of IReadOnlyCollection(Of TMocked)))), Object())
+- uid: Scenario.Moq.MockedResourceDescription`2.#ctor*
+  name: MockedResourceDescription
+  href: api/Scenario.Moq.MockedResourceDescription-2.html#Scenario_Moq_MockedResourceDescription_2__ctor_
+  commentId: Overload:Scenario.Moq.MockedResourceDescription`2.#ctor
+  isSpec: "True"
+  fullName: Scenario.Moq.MockedResourceDescription<TScenarioBuilder, TMocked>.MockedResourceDescription
+  fullName.vb: Scenario.Moq.MockedResourceDescription(Of TScenarioBuilder, TMocked).MockedResourceDescription
+  nameWithType: MockedResourceDescription<TScenarioBuilder, TMocked>.MockedResourceDescription
+  nameWithType.vb: MockedResourceDescription(Of TScenarioBuilder, TMocked).MockedResourceDescription
+- uid: Scenario.Moq.MockedResourceDescription`2.Mock(Action{Mock{`1}})
+  name: Mock(Action<Mock<TMocked>>)
+  href: api/Scenario.Moq.MockedResourceDescription-2.html#Scenario_Moq_MockedResourceDescription_2_Mock_Action_Mock__1___
+  commentId: M:Scenario.Moq.MockedResourceDescription`2.Mock(Action{Mock{`1}})
+  name.vb: Mock(Action(Of Mock(Of TMocked)))
+  fullName: Scenario.Moq.MockedResourceDescription<TScenarioBuilder, TMocked>.Mock(Action<Mock<TMocked>>)
+  fullName.vb: Scenario.Moq.MockedResourceDescription(Of TScenarioBuilder, TMocked).Mock(Action(Of Mock(Of TMocked)))
+  nameWithType: MockedResourceDescription<TScenarioBuilder, TMocked>.Mock(Action<Mock<TMocked>>)
+  nameWithType.vb: MockedResourceDescription(Of TScenarioBuilder, TMocked).Mock(Action(Of Mock(Of TMocked)))
+- uid: Scenario.Moq.MockedResourceDescription`2.Mock*
+  name: Mock
+  href: api/Scenario.Moq.MockedResourceDescription-2.html#Scenario_Moq_MockedResourceDescription_2_Mock_
+  commentId: Overload:Scenario.Moq.MockedResourceDescription`2.Mock
+  isSpec: "True"
+  fullName: Scenario.Moq.MockedResourceDescription<TScenarioBuilder, TMocked>.Mock
+  fullName.vb: Scenario.Moq.MockedResourceDescription(Of TScenarioBuilder, TMocked).Mock
+  nameWithType: MockedResourceDescription<TScenarioBuilder, TMocked>.Mock
+  nameWithType.vb: MockedResourceDescription(Of TScenarioBuilder, TMocked).Mock
+- uid: Scenario.Moq.MockedResourceDescription`2.ScopeActionAsync(IServiceScope)
+  name: ScopeActionAsync(IServiceScope)
+  href: api/Scenario.Moq.MockedResourceDescription-2.html#Scenario_Moq_MockedResourceDescription_2_ScopeActionAsync_IServiceScope_
+  commentId: M:Scenario.Moq.MockedResourceDescription`2.ScopeActionAsync(IServiceScope)
+  fullName: Scenario.Moq.MockedResourceDescription<TScenarioBuilder, TMocked>.ScopeActionAsync(IServiceScope)
+  fullName.vb: Scenario.Moq.MockedResourceDescription(Of TScenarioBuilder, TMocked).ScopeActionAsync(IServiceScope)
+  nameWithType: MockedResourceDescription<TScenarioBuilder, TMocked>.ScopeActionAsync(IServiceScope)
+  nameWithType.vb: MockedResourceDescription(Of TScenarioBuilder, TMocked).ScopeActionAsync(IServiceScope)
+- uid: Scenario.Moq.MockedResourceDescription`2.ScopeActionAsync*
+  name: ScopeActionAsync
+  href: api/Scenario.Moq.MockedResourceDescription-2.html#Scenario_Moq_MockedResourceDescription_2_ScopeActionAsync_
+  commentId: Overload:Scenario.Moq.MockedResourceDescription`2.ScopeActionAsync
+  isSpec: "True"
+  fullName: Scenario.Moq.MockedResourceDescription<TScenarioBuilder, TMocked>.ScopeActionAsync
+  fullName.vb: Scenario.Moq.MockedResourceDescription(Of TScenarioBuilder, TMocked).ScopeActionAsync
+  nameWithType: MockedResourceDescription<TScenarioBuilder, TMocked>.ScopeActionAsync
+  nameWithType.vb: MockedResourceDescription(Of TScenarioBuilder, TMocked).ScopeActionAsync
+- uid: Scenario.Moq.MockedSubResourceDescription`3
+  name: MockedSubResourceDescription<TScenarioBuilder, TDependent, TMocked>
+  href: api/Scenario.Moq.MockedSubResourceDescription-3.html
+  commentId: T:Scenario.Moq.MockedSubResourceDescription`3
+  name.vb: MockedSubResourceDescription(Of TScenarioBuilder, TDependent, TMocked)
+  fullName: Scenario.Moq.MockedSubResourceDescription<TScenarioBuilder, TDependent, TMocked>
+  fullName.vb: Scenario.Moq.MockedSubResourceDescription(Of TScenarioBuilder, TDependent, TMocked)
+  nameWithType: MockedSubResourceDescription<TScenarioBuilder, TDependent, TMocked>
+  nameWithType.vb: MockedSubResourceDescription(Of TScenarioBuilder, TDependent, TMocked)
+- uid: Scenario.Moq.MockedSubResourceDescription`3.#ctor(Scenario.IScenarioBuilderResourceDescription{`0,`1},System.Nullable{Action{System.Nullable{IReadOnlyCollection{`2}}}})
+  name: MockedSubResourceDescription(IScenarioBuilderResourceDescription<TScenarioBuilder, TDependent>, Nullable<Action<Nullable<IReadOnlyCollection<TMocked>>>>)
+  href: api/Scenario.Moq.MockedSubResourceDescription-3.html#Scenario_Moq_MockedSubResourceDescription_3__ctor_Scenario_IScenarioBuilderResourceDescription__0__1__System_Nullable_Action_System_Nullable_IReadOnlyCollection__2_____
+  commentId: M:Scenario.Moq.MockedSubResourceDescription`3.#ctor(Scenario.IScenarioBuilderResourceDescription{`0,`1},System.Nullable{Action{System.Nullable{IReadOnlyCollection{`2}}}})
+  name.vb: MockedSubResourceDescription(IScenarioBuilderResourceDescription(Of TScenarioBuilder, TDependent), Nullable(Of Action(Of Nullable(Of IReadOnlyCollection(Of TMocked)))))
+  fullName: Scenario.Moq.MockedSubResourceDescription<TScenarioBuilder, TDependent, TMocked>.MockedSubResourceDescription(Scenario.IScenarioBuilderResourceDescription<TScenarioBuilder, TDependent>, System.Nullable<Action<System.Nullable<IReadOnlyCollection<TMocked>>>>)
+  fullName.vb: Scenario.Moq.MockedSubResourceDescription(Of TScenarioBuilder, TDependent, TMocked).MockedSubResourceDescription(Scenario.IScenarioBuilderResourceDescription(Of TScenarioBuilder, TDependent), System.Nullable(Of Action(Of System.Nullable(Of IReadOnlyCollection(Of TMocked)))))
+  nameWithType: MockedSubResourceDescription<TScenarioBuilder, TDependent, TMocked>.MockedSubResourceDescription(IScenarioBuilderResourceDescription<TScenarioBuilder, TDependent>, Nullable<Action<Nullable<IReadOnlyCollection<TMocked>>>>)
+  nameWithType.vb: MockedSubResourceDescription(Of TScenarioBuilder, TDependent, TMocked).MockedSubResourceDescription(IScenarioBuilderResourceDescription(Of TScenarioBuilder, TDependent), Nullable(Of Action(Of Nullable(Of IReadOnlyCollection(Of TMocked)))))
+- uid: Scenario.Moq.MockedSubResourceDescription`3.#ctor(Scenario.IScenarioBuilderResourceDescription{`0,`1},System.Nullable{Action{System.Nullable{IReadOnlyCollection{`2}}}},Expression{Func{`2}},MockBehavior)
+  name: MockedSubResourceDescription(IScenarioBuilderResourceDescription<TScenarioBuilder, TDependent>, Nullable<Action<Nullable<IReadOnlyCollection<TMocked>>>>, Expression<Func<TMocked>>, MockBehavior)
+  href: api/Scenario.Moq.MockedSubResourceDescription-3.html#Scenario_Moq_MockedSubResourceDescription_3__ctor_Scenario_IScenarioBuilderResourceDescription__0__1__System_Nullable_Action_System_Nullable_IReadOnlyCollection__2_____Expression_Func__2___MockBehavior_
+  commentId: M:Scenario.Moq.MockedSubResourceDescription`3.#ctor(Scenario.IScenarioBuilderResourceDescription{`0,`1},System.Nullable{Action{System.Nullable{IReadOnlyCollection{`2}}}},Expression{Func{`2}},MockBehavior)
+  name.vb: MockedSubResourceDescription(IScenarioBuilderResourceDescription(Of TScenarioBuilder, TDependent), Nullable(Of Action(Of Nullable(Of IReadOnlyCollection(Of TMocked)))), Expression(Of Func(Of TMocked)), MockBehavior)
+  fullName: Scenario.Moq.MockedSubResourceDescription<TScenarioBuilder, TDependent, TMocked>.MockedSubResourceDescription(Scenario.IScenarioBuilderResourceDescription<TScenarioBuilder, TDependent>, System.Nullable<Action<System.Nullable<IReadOnlyCollection<TMocked>>>>, Expression<Func<TMocked>>, MockBehavior)
+  fullName.vb: Scenario.Moq.MockedSubResourceDescription(Of TScenarioBuilder, TDependent, TMocked).MockedSubResourceDescription(Scenario.IScenarioBuilderResourceDescription(Of TScenarioBuilder, TDependent), System.Nullable(Of Action(Of System.Nullable(Of IReadOnlyCollection(Of TMocked)))), Expression(Of Func(Of TMocked)), MockBehavior)
+  nameWithType: MockedSubResourceDescription<TScenarioBuilder, TDependent, TMocked>.MockedSubResourceDescription(IScenarioBuilderResourceDescription<TScenarioBuilder, TDependent>, Nullable<Action<Nullable<IReadOnlyCollection<TMocked>>>>, Expression<Func<TMocked>>, MockBehavior)
+  nameWithType.vb: MockedSubResourceDescription(Of TScenarioBuilder, TDependent, TMocked).MockedSubResourceDescription(IScenarioBuilderResourceDescription(Of TScenarioBuilder, TDependent), Nullable(Of Action(Of Nullable(Of IReadOnlyCollection(Of TMocked)))), Expression(Of Func(Of TMocked)), MockBehavior)
+- uid: Scenario.Moq.MockedSubResourceDescription`3.#ctor(Scenario.IScenarioBuilderResourceDescription{`0,`1},System.Nullable{Action{System.Nullable{IReadOnlyCollection{`2}}}},MockBehavior)
+  name: MockedSubResourceDescription(IScenarioBuilderResourceDescription<TScenarioBuilder, TDependent>, Nullable<Action<Nullable<IReadOnlyCollection<TMocked>>>>, MockBehavior)
+  href: api/Scenario.Moq.MockedSubResourceDescription-3.html#Scenario_Moq_MockedSubResourceDescription_3__ctor_Scenario_IScenarioBuilderResourceDescription__0__1__System_Nullable_Action_System_Nullable_IReadOnlyCollection__2_____MockBehavior_
+  commentId: M:Scenario.Moq.MockedSubResourceDescription`3.#ctor(Scenario.IScenarioBuilderResourceDescription{`0,`1},System.Nullable{Action{System.Nullable{IReadOnlyCollection{`2}}}},MockBehavior)
+  name.vb: MockedSubResourceDescription(IScenarioBuilderResourceDescription(Of TScenarioBuilder, TDependent), Nullable(Of Action(Of Nullable(Of IReadOnlyCollection(Of TMocked)))), MockBehavior)
+  fullName: Scenario.Moq.MockedSubResourceDescription<TScenarioBuilder, TDependent, TMocked>.MockedSubResourceDescription(Scenario.IScenarioBuilderResourceDescription<TScenarioBuilder, TDependent>, System.Nullable<Action<System.Nullable<IReadOnlyCollection<TMocked>>>>, MockBehavior)
+  fullName.vb: Scenario.Moq.MockedSubResourceDescription(Of TScenarioBuilder, TDependent, TMocked).MockedSubResourceDescription(Scenario.IScenarioBuilderResourceDescription(Of TScenarioBuilder, TDependent), System.Nullable(Of Action(Of System.Nullable(Of IReadOnlyCollection(Of TMocked)))), MockBehavior)
+  nameWithType: MockedSubResourceDescription<TScenarioBuilder, TDependent, TMocked>.MockedSubResourceDescription(IScenarioBuilderResourceDescription<TScenarioBuilder, TDependent>, Nullable<Action<Nullable<IReadOnlyCollection<TMocked>>>>, MockBehavior)
+  nameWithType.vb: MockedSubResourceDescription(Of TScenarioBuilder, TDependent, TMocked).MockedSubResourceDescription(IScenarioBuilderResourceDescription(Of TScenarioBuilder, TDependent), Nullable(Of Action(Of Nullable(Of IReadOnlyCollection(Of TMocked)))), MockBehavior)
+- uid: Scenario.Moq.MockedSubResourceDescription`3.#ctor(Scenario.IScenarioBuilderResourceDescription{`0,`1},System.Nullable{Action{System.Nullable{IReadOnlyCollection{`2}}}},MockBehavior,System.Object[])
+  name: MockedSubResourceDescription(IScenarioBuilderResourceDescription<TScenarioBuilder, TDependent>, Nullable<Action<Nullable<IReadOnlyCollection<TMocked>>>>, MockBehavior, Object[])
+  href: api/Scenario.Moq.MockedSubResourceDescription-3.html#Scenario_Moq_MockedSubResourceDescription_3__ctor_Scenario_IScenarioBuilderResourceDescription__0__1__System_Nullable_Action_System_Nullable_IReadOnlyCollection__2_____MockBehavior_System_Object___
+  commentId: M:Scenario.Moq.MockedSubResourceDescription`3.#ctor(Scenario.IScenarioBuilderResourceDescription{`0,`1},System.Nullable{Action{System.Nullable{IReadOnlyCollection{`2}}}},MockBehavior,System.Object[])
+  name.vb: MockedSubResourceDescription(IScenarioBuilderResourceDescription(Of TScenarioBuilder, TDependent), Nullable(Of Action(Of Nullable(Of IReadOnlyCollection(Of TMocked)))), MockBehavior, Object())
+  fullName: Scenario.Moq.MockedSubResourceDescription<TScenarioBuilder, TDependent, TMocked>.MockedSubResourceDescription(Scenario.IScenarioBuilderResourceDescription<TScenarioBuilder, TDependent>, System.Nullable<Action<System.Nullable<IReadOnlyCollection<TMocked>>>>, MockBehavior, System.Object[])
+  fullName.vb: Scenario.Moq.MockedSubResourceDescription(Of TScenarioBuilder, TDependent, TMocked).MockedSubResourceDescription(Scenario.IScenarioBuilderResourceDescription(Of TScenarioBuilder, TDependent), System.Nullable(Of Action(Of System.Nullable(Of IReadOnlyCollection(Of TMocked)))), MockBehavior, System.Object())
+  nameWithType: MockedSubResourceDescription<TScenarioBuilder, TDependent, TMocked>.MockedSubResourceDescription(IScenarioBuilderResourceDescription<TScenarioBuilder, TDependent>, Nullable<Action<Nullable<IReadOnlyCollection<TMocked>>>>, MockBehavior, Object[])
+  nameWithType.vb: MockedSubResourceDescription(Of TScenarioBuilder, TDependent, TMocked).MockedSubResourceDescription(IScenarioBuilderResourceDescription(Of TScenarioBuilder, TDependent), Nullable(Of Action(Of Nullable(Of IReadOnlyCollection(Of TMocked)))), MockBehavior, Object())
+- uid: Scenario.Moq.MockedSubResourceDescription`3.#ctor(Scenario.IScenarioBuilderResourceDescription{`0,`1},System.Nullable{Action{System.Nullable{IReadOnlyCollection{`2}}}},System.Object[])
+  name: MockedSubResourceDescription(IScenarioBuilderResourceDescription<TScenarioBuilder, TDependent>, Nullable<Action<Nullable<IReadOnlyCollection<TMocked>>>>, Object[])
+  href: api/Scenario.Moq.MockedSubResourceDescription-3.html#Scenario_Moq_MockedSubResourceDescription_3__ctor_Scenario_IScenarioBuilderResourceDescription__0__1__System_Nullable_Action_System_Nullable_IReadOnlyCollection__2_____System_Object___
+  commentId: M:Scenario.Moq.MockedSubResourceDescription`3.#ctor(Scenario.IScenarioBuilderResourceDescription{`0,`1},System.Nullable{Action{System.Nullable{IReadOnlyCollection{`2}}}},System.Object[])
+  name.vb: MockedSubResourceDescription(IScenarioBuilderResourceDescription(Of TScenarioBuilder, TDependent), Nullable(Of Action(Of Nullable(Of IReadOnlyCollection(Of TMocked)))), Object())
+  fullName: Scenario.Moq.MockedSubResourceDescription<TScenarioBuilder, TDependent, TMocked>.MockedSubResourceDescription(Scenario.IScenarioBuilderResourceDescription<TScenarioBuilder, TDependent>, System.Nullable<Action<System.Nullable<IReadOnlyCollection<TMocked>>>>, System.Object[])
+  fullName.vb: Scenario.Moq.MockedSubResourceDescription(Of TScenarioBuilder, TDependent, TMocked).MockedSubResourceDescription(Scenario.IScenarioBuilderResourceDescription(Of TScenarioBuilder, TDependent), System.Nullable(Of Action(Of System.Nullable(Of IReadOnlyCollection(Of TMocked)))), System.Object())
+  nameWithType: MockedSubResourceDescription<TScenarioBuilder, TDependent, TMocked>.MockedSubResourceDescription(IScenarioBuilderResourceDescription<TScenarioBuilder, TDependent>, Nullable<Action<Nullable<IReadOnlyCollection<TMocked>>>>, Object[])
+  nameWithType.vb: MockedSubResourceDescription(Of TScenarioBuilder, TDependent, TMocked).MockedSubResourceDescription(IScenarioBuilderResourceDescription(Of TScenarioBuilder, TDependent), Nullable(Of Action(Of Nullable(Of IReadOnlyCollection(Of TMocked)))), Object())
+- uid: Scenario.Moq.MockedSubResourceDescription`3.#ctor*
+  name: MockedSubResourceDescription
+  href: api/Scenario.Moq.MockedSubResourceDescription-3.html#Scenario_Moq_MockedSubResourceDescription_3__ctor_
+  commentId: Overload:Scenario.Moq.MockedSubResourceDescription`3.#ctor
+  isSpec: "True"
+  fullName: Scenario.Moq.MockedSubResourceDescription<TScenarioBuilder, TDependent, TMocked>.MockedSubResourceDescription
+  fullName.vb: Scenario.Moq.MockedSubResourceDescription(Of TScenarioBuilder, TDependent, TMocked).MockedSubResourceDescription
+  nameWithType: MockedSubResourceDescription<TScenarioBuilder, TDependent, TMocked>.MockedSubResourceDescription
+  nameWithType.vb: MockedSubResourceDescription(Of TScenarioBuilder, TDependent, TMocked).MockedSubResourceDescription
+- uid: Scenario.Moq.MockedSubResourceDescription`3.Mock(Action{Mock{`2}})
+  name: Mock(Action<Mock<TMocked>>)
+  href: api/Scenario.Moq.MockedSubResourceDescription-3.html#Scenario_Moq_MockedSubResourceDescription_3_Mock_Action_Mock__2___
+  commentId: M:Scenario.Moq.MockedSubResourceDescription`3.Mock(Action{Mock{`2}})
+  name.vb: Mock(Action(Of Mock(Of TMocked)))
+  fullName: Scenario.Moq.MockedSubResourceDescription<TScenarioBuilder, TDependent, TMocked>.Mock(Action<Mock<TMocked>>)
+  fullName.vb: Scenario.Moq.MockedSubResourceDescription(Of TScenarioBuilder, TDependent, TMocked).Mock(Action(Of Mock(Of TMocked)))
+  nameWithType: MockedSubResourceDescription<TScenarioBuilder, TDependent, TMocked>.Mock(Action<Mock<TMocked>>)
+  nameWithType.vb: MockedSubResourceDescription(Of TScenarioBuilder, TDependent, TMocked).Mock(Action(Of Mock(Of TMocked)))
+- uid: Scenario.Moq.MockedSubResourceDescription`3.Mock*
+  name: Mock
+  href: api/Scenario.Moq.MockedSubResourceDescription-3.html#Scenario_Moq_MockedSubResourceDescription_3_Mock_
+  commentId: Overload:Scenario.Moq.MockedSubResourceDescription`3.Mock
+  isSpec: "True"
+  fullName: Scenario.Moq.MockedSubResourceDescription<TScenarioBuilder, TDependent, TMocked>.Mock
+  fullName.vb: Scenario.Moq.MockedSubResourceDescription(Of TScenarioBuilder, TDependent, TMocked).Mock
+  nameWithType: MockedSubResourceDescription<TScenarioBuilder, TDependent, TMocked>.Mock
+  nameWithType.vb: MockedSubResourceDescription(Of TScenarioBuilder, TDependent, TMocked).Mock
+- uid: Scenario.Moq.MockedSubResourceDescription`3.ScopeActionAsync(IServiceScope)
+  name: ScopeActionAsync(IServiceScope)
+  href: api/Scenario.Moq.MockedSubResourceDescription-3.html#Scenario_Moq_MockedSubResourceDescription_3_ScopeActionAsync_IServiceScope_
+  commentId: M:Scenario.Moq.MockedSubResourceDescription`3.ScopeActionAsync(IServiceScope)
+  fullName: Scenario.Moq.MockedSubResourceDescription<TScenarioBuilder, TDependent, TMocked>.ScopeActionAsync(IServiceScope)
+  fullName.vb: Scenario.Moq.MockedSubResourceDescription(Of TScenarioBuilder, TDependent, TMocked).ScopeActionAsync(IServiceScope)
+  nameWithType: MockedSubResourceDescription<TScenarioBuilder, TDependent, TMocked>.ScopeActionAsync(IServiceScope)
+  nameWithType.vb: MockedSubResourceDescription(Of TScenarioBuilder, TDependent, TMocked).ScopeActionAsync(IServiceScope)
+- uid: Scenario.Moq.MockedSubResourceDescription`3.ScopeActionAsync*
+  name: ScopeActionAsync
+  href: api/Scenario.Moq.MockedSubResourceDescription-3.html#Scenario_Moq_MockedSubResourceDescription_3_ScopeActionAsync_
+  commentId: Overload:Scenario.Moq.MockedSubResourceDescription`3.ScopeActionAsync
+  isSpec: "True"
+  fullName: Scenario.Moq.MockedSubResourceDescription<TScenarioBuilder, TDependent, TMocked>.ScopeActionAsync
+  fullName.vb: Scenario.Moq.MockedSubResourceDescription(Of TScenarioBuilder, TDependent, TMocked).ScopeActionAsync
+  nameWithType: MockedSubResourceDescription<TScenarioBuilder, TDependent, TMocked>.ScopeActionAsync
+  nameWithType.vb: MockedSubResourceDescription(Of TScenarioBuilder, TDependent, TMocked).ScopeActionAsync
+- uid: Scenario.Moq.ScenarioMoqExtensions
+  name: ScenarioMoqExtensions
+  href: api/Scenario.Moq.ScenarioMoqExtensions.html
+  commentId: T:Scenario.Moq.ScenarioMoqExtensions
+  fullName: Scenario.Moq.ScenarioMoqExtensions
+  nameWithType: ScenarioMoqExtensions
+- uid: Scenario.Moq.ScenarioMoqExtensions.WithDependentMock*
+  name: WithDependentMock
+  href: api/Scenario.Moq.ScenarioMoqExtensions.html#Scenario_Moq_ScenarioMoqExtensions_WithDependentMock_
+  commentId: Overload:Scenario.Moq.ScenarioMoqExtensions.WithDependentMock
+  isSpec: "True"
+  fullName: Scenario.Moq.ScenarioMoqExtensions.WithDependentMock
+  nameWithType: ScenarioMoqExtensions.WithDependentMock
+- uid: Scenario.Moq.ScenarioMoqExtensions.WithDependentMock``3(Scenario.IScenarioBuilderResourceDescription{``0,``1},Expression{Func{``2}},MockBehavior,System.Nullable{Action{``2}})
+  name: WithDependentMock<TScenarioBuilder, TDependent, TMocked>(IScenarioBuilderResourceDescription<TScenarioBuilder, TDependent>, Expression<Func<TMocked>>, MockBehavior, Nullable<Action<TMocked>>)
+  href: api/Scenario.Moq.ScenarioMoqExtensions.html#Scenario_Moq_ScenarioMoqExtensions_WithDependentMock__3_Scenario_IScenarioBuilderResourceDescription___0___1__Expression_Func___2___MockBehavior_System_Nullable_Action___2___
+  commentId: M:Scenario.Moq.ScenarioMoqExtensions.WithDependentMock``3(Scenario.IScenarioBuilderResourceDescription{``0,``1},Expression{Func{``2}},MockBehavior,System.Nullable{Action{``2}})
+  name.vb: WithDependentMock(Of TScenarioBuilder, TDependent, TMocked)(IScenarioBuilderResourceDescription(Of TScenarioBuilder, TDependent), Expression(Of Func(Of TMocked)), MockBehavior, Nullable(Of Action(Of TMocked)))
+  fullName: Scenario.Moq.ScenarioMoqExtensions.WithDependentMock<TScenarioBuilder, TDependent, TMocked>(Scenario.IScenarioBuilderResourceDescription<TScenarioBuilder, TDependent>, Expression<Func<TMocked>>, MockBehavior, System.Nullable<Action<TMocked>>)
+  fullName.vb: Scenario.Moq.ScenarioMoqExtensions.WithDependentMock(Of TScenarioBuilder, TDependent, TMocked)(Scenario.IScenarioBuilderResourceDescription(Of TScenarioBuilder, TDependent), Expression(Of Func(Of TMocked)), MockBehavior, System.Nullable(Of Action(Of TMocked)))
+  nameWithType: ScenarioMoqExtensions.WithDependentMock<TScenarioBuilder, TDependent, TMocked>(IScenarioBuilderResourceDescription<TScenarioBuilder, TDependent>, Expression<Func<TMocked>>, MockBehavior, Nullable<Action<TMocked>>)
+  nameWithType.vb: ScenarioMoqExtensions.WithDependentMock(Of TScenarioBuilder, TDependent, TMocked)(IScenarioBuilderResourceDescription(Of TScenarioBuilder, TDependent), Expression(Of Func(Of TMocked)), MockBehavior, Nullable(Of Action(Of TMocked)))
+- uid: Scenario.Moq.ScenarioMoqExtensions.WithDependentMock``3(Scenario.IScenarioBuilderResourceDescription{``0,``1},MockBehavior,System.Nullable{Action{``2}})
+  name: WithDependentMock<TScenarioBuilder, TDependent, TMocked>(IScenarioBuilderResourceDescription<TScenarioBuilder, TDependent>, MockBehavior, Nullable<Action<TMocked>>)
+  href: api/Scenario.Moq.ScenarioMoqExtensions.html#Scenario_Moq_ScenarioMoqExtensions_WithDependentMock__3_Scenario_IScenarioBuilderResourceDescription___0___1__MockBehavior_System_Nullable_Action___2___
+  commentId: M:Scenario.Moq.ScenarioMoqExtensions.WithDependentMock``3(Scenario.IScenarioBuilderResourceDescription{``0,``1},MockBehavior,System.Nullable{Action{``2}})
+  name.vb: WithDependentMock(Of TScenarioBuilder, TDependent, TMocked)(IScenarioBuilderResourceDescription(Of TScenarioBuilder, TDependent), MockBehavior, Nullable(Of Action(Of TMocked)))
+  fullName: Scenario.Moq.ScenarioMoqExtensions.WithDependentMock<TScenarioBuilder, TDependent, TMocked>(Scenario.IScenarioBuilderResourceDescription<TScenarioBuilder, TDependent>, MockBehavior, System.Nullable<Action<TMocked>>)
+  fullName.vb: Scenario.Moq.ScenarioMoqExtensions.WithDependentMock(Of TScenarioBuilder, TDependent, TMocked)(Scenario.IScenarioBuilderResourceDescription(Of TScenarioBuilder, TDependent), MockBehavior, System.Nullable(Of Action(Of TMocked)))
+  nameWithType: ScenarioMoqExtensions.WithDependentMock<TScenarioBuilder, TDependent, TMocked>(IScenarioBuilderResourceDescription<TScenarioBuilder, TDependent>, MockBehavior, Nullable<Action<TMocked>>)
+  nameWithType.vb: ScenarioMoqExtensions.WithDependentMock(Of TScenarioBuilder, TDependent, TMocked)(IScenarioBuilderResourceDescription(Of TScenarioBuilder, TDependent), MockBehavior, Nullable(Of Action(Of TMocked)))
+- uid: Scenario.Moq.ScenarioMoqExtensions.WithDependentMock``3(Scenario.IScenarioBuilderResourceDescription{``0,``1},MockBehavior,System.Nullable{Action{``2}},System.Object[])
+  name: WithDependentMock<TScenarioBuilder, TDependent, TMocked>(IScenarioBuilderResourceDescription<TScenarioBuilder, TDependent>, MockBehavior, Nullable<Action<TMocked>>, Object[])
+  href: api/Scenario.Moq.ScenarioMoqExtensions.html#Scenario_Moq_ScenarioMoqExtensions_WithDependentMock__3_Scenario_IScenarioBuilderResourceDescription___0___1__MockBehavior_System_Nullable_Action___2___System_Object___
+  commentId: M:Scenario.Moq.ScenarioMoqExtensions.WithDependentMock``3(Scenario.IScenarioBuilderResourceDescription{``0,``1},MockBehavior,System.Nullable{Action{``2}},System.Object[])
+  name.vb: WithDependentMock(Of TScenarioBuilder, TDependent, TMocked)(IScenarioBuilderResourceDescription(Of TScenarioBuilder, TDependent), MockBehavior, Nullable(Of Action(Of TMocked)), Object())
+  fullName: Scenario.Moq.ScenarioMoqExtensions.WithDependentMock<TScenarioBuilder, TDependent, TMocked>(Scenario.IScenarioBuilderResourceDescription<TScenarioBuilder, TDependent>, MockBehavior, System.Nullable<Action<TMocked>>, System.Object[])
+  fullName.vb: Scenario.Moq.ScenarioMoqExtensions.WithDependentMock(Of TScenarioBuilder, TDependent, TMocked)(Scenario.IScenarioBuilderResourceDescription(Of TScenarioBuilder, TDependent), MockBehavior, System.Nullable(Of Action(Of TMocked)), System.Object())
+  nameWithType: ScenarioMoqExtensions.WithDependentMock<TScenarioBuilder, TDependent, TMocked>(IScenarioBuilderResourceDescription<TScenarioBuilder, TDependent>, MockBehavior, Nullable<Action<TMocked>>, Object[])
+  nameWithType.vb: ScenarioMoqExtensions.WithDependentMock(Of TScenarioBuilder, TDependent, TMocked)(IScenarioBuilderResourceDescription(Of TScenarioBuilder, TDependent), MockBehavior, Nullable(Of Action(Of TMocked)), Object())
+- uid: Scenario.Moq.ScenarioMoqExtensions.WithDependentMock``3(Scenario.IScenarioBuilderResourceDescription{``0,``1},System.Nullable{Action{``2}})
+  name: WithDependentMock<TScenarioBuilder, TDependent, TMocked>(IScenarioBuilderResourceDescription<TScenarioBuilder, TDependent>, Nullable<Action<TMocked>>)
+  href: api/Scenario.Moq.ScenarioMoqExtensions.html#Scenario_Moq_ScenarioMoqExtensions_WithDependentMock__3_Scenario_IScenarioBuilderResourceDescription___0___1__System_Nullable_Action___2___
+  commentId: M:Scenario.Moq.ScenarioMoqExtensions.WithDependentMock``3(Scenario.IScenarioBuilderResourceDescription{``0,``1},System.Nullable{Action{``2}})
+  name.vb: WithDependentMock(Of TScenarioBuilder, TDependent, TMocked)(IScenarioBuilderResourceDescription(Of TScenarioBuilder, TDependent), Nullable(Of Action(Of TMocked)))
+  fullName: Scenario.Moq.ScenarioMoqExtensions.WithDependentMock<TScenarioBuilder, TDependent, TMocked>(Scenario.IScenarioBuilderResourceDescription<TScenarioBuilder, TDependent>, System.Nullable<Action<TMocked>>)
+  fullName.vb: Scenario.Moq.ScenarioMoqExtensions.WithDependentMock(Of TScenarioBuilder, TDependent, TMocked)(Scenario.IScenarioBuilderResourceDescription(Of TScenarioBuilder, TDependent), System.Nullable(Of Action(Of TMocked)))
+  nameWithType: ScenarioMoqExtensions.WithDependentMock<TScenarioBuilder, TDependent, TMocked>(IScenarioBuilderResourceDescription<TScenarioBuilder, TDependent>, Nullable<Action<TMocked>>)
+  nameWithType.vb: ScenarioMoqExtensions.WithDependentMock(Of TScenarioBuilder, TDependent, TMocked)(IScenarioBuilderResourceDescription(Of TScenarioBuilder, TDependent), Nullable(Of Action(Of TMocked)))
+- uid: Scenario.Moq.ScenarioMoqExtensions.WithDependentMock``3(Scenario.IScenarioBuilderResourceDescription{``0,``1},System.Nullable{Action{``2}},System.Object[])
+  name: WithDependentMock<TScenarioBuilder, TDependent, TMocked>(IScenarioBuilderResourceDescription<TScenarioBuilder, TDependent>, Nullable<Action<TMocked>>, Object[])
+  href: api/Scenario.Moq.ScenarioMoqExtensions.html#Scenario_Moq_ScenarioMoqExtensions_WithDependentMock__3_Scenario_IScenarioBuilderResourceDescription___0___1__System_Nullable_Action___2___System_Object___
+  commentId: M:Scenario.Moq.ScenarioMoqExtensions.WithDependentMock``3(Scenario.IScenarioBuilderResourceDescription{``0,``1},System.Nullable{Action{``2}},System.Object[])
+  name.vb: WithDependentMock(Of TScenarioBuilder, TDependent, TMocked)(IScenarioBuilderResourceDescription(Of TScenarioBuilder, TDependent), Nullable(Of Action(Of TMocked)), Object())
+  fullName: Scenario.Moq.ScenarioMoqExtensions.WithDependentMock<TScenarioBuilder, TDependent, TMocked>(Scenario.IScenarioBuilderResourceDescription<TScenarioBuilder, TDependent>, System.Nullable<Action<TMocked>>, System.Object[])
+  fullName.vb: Scenario.Moq.ScenarioMoqExtensions.WithDependentMock(Of TScenarioBuilder, TDependent, TMocked)(Scenario.IScenarioBuilderResourceDescription(Of TScenarioBuilder, TDependent), System.Nullable(Of Action(Of TMocked)), System.Object())
+  nameWithType: ScenarioMoqExtensions.WithDependentMock<TScenarioBuilder, TDependent, TMocked>(IScenarioBuilderResourceDescription<TScenarioBuilder, TDependent>, Nullable<Action<TMocked>>, Object[])
+  nameWithType.vb: ScenarioMoqExtensions.WithDependentMock(Of TScenarioBuilder, TDependent, TMocked)(IScenarioBuilderResourceDescription(Of TScenarioBuilder, TDependent), Nullable(Of Action(Of TMocked)), Object())
+- uid: Scenario.Moq.ScenarioMoqExtensions.WithMock*
+  name: WithMock
+  href: api/Scenario.Moq.ScenarioMoqExtensions.html#Scenario_Moq_ScenarioMoqExtensions_WithMock_
+  commentId: Overload:Scenario.Moq.ScenarioMoqExtensions.WithMock
+  isSpec: "True"
+  fullName: Scenario.Moq.ScenarioMoqExtensions.WithMock
+  nameWithType: ScenarioMoqExtensions.WithMock
+- uid: Scenario.Moq.ScenarioMoqExtensions.WithMock``2(``0,Expression{Func{``1}},MockBehavior,System.Nullable{Action{``1}})
+  name: WithMock<TScenarioBuilder, TMocked>(TScenarioBuilder, Expression<Func<TMocked>>, MockBehavior, Nullable<Action<TMocked>>)
+  href: api/Scenario.Moq.ScenarioMoqExtensions.html#Scenario_Moq_ScenarioMoqExtensions_WithMock__2___0_Expression_Func___1___MockBehavior_System_Nullable_Action___1___
+  commentId: M:Scenario.Moq.ScenarioMoqExtensions.WithMock``2(``0,Expression{Func{``1}},MockBehavior,System.Nullable{Action{``1}})
+  name.vb: WithMock(Of TScenarioBuilder, TMocked)(TScenarioBuilder, Expression(Of Func(Of TMocked)), MockBehavior, Nullable(Of Action(Of TMocked)))
+  fullName: Scenario.Moq.ScenarioMoqExtensions.WithMock<TScenarioBuilder, TMocked>(TScenarioBuilder, Expression<Func<TMocked>>, MockBehavior, System.Nullable<Action<TMocked>>)
+  fullName.vb: Scenario.Moq.ScenarioMoqExtensions.WithMock(Of TScenarioBuilder, TMocked)(TScenarioBuilder, Expression(Of Func(Of TMocked)), MockBehavior, System.Nullable(Of Action(Of TMocked)))
+  nameWithType: ScenarioMoqExtensions.WithMock<TScenarioBuilder, TMocked>(TScenarioBuilder, Expression<Func<TMocked>>, MockBehavior, Nullable<Action<TMocked>>)
+  nameWithType.vb: ScenarioMoqExtensions.WithMock(Of TScenarioBuilder, TMocked)(TScenarioBuilder, Expression(Of Func(Of TMocked)), MockBehavior, Nullable(Of Action(Of TMocked)))
+- uid: Scenario.Moq.ScenarioMoqExtensions.WithMock``2(``0,MockBehavior,System.Nullable{Action{``1}})
+  name: WithMock<TScenarioBuilder, TMocked>(TScenarioBuilder, MockBehavior, Nullable<Action<TMocked>>)
+  href: api/Scenario.Moq.ScenarioMoqExtensions.html#Scenario_Moq_ScenarioMoqExtensions_WithMock__2___0_MockBehavior_System_Nullable_Action___1___
+  commentId: M:Scenario.Moq.ScenarioMoqExtensions.WithMock``2(``0,MockBehavior,System.Nullable{Action{``1}})
+  name.vb: WithMock(Of TScenarioBuilder, TMocked)(TScenarioBuilder, MockBehavior, Nullable(Of Action(Of TMocked)))
+  fullName: Scenario.Moq.ScenarioMoqExtensions.WithMock<TScenarioBuilder, TMocked>(TScenarioBuilder, MockBehavior, System.Nullable<Action<TMocked>>)
+  fullName.vb: Scenario.Moq.ScenarioMoqExtensions.WithMock(Of TScenarioBuilder, TMocked)(TScenarioBuilder, MockBehavior, System.Nullable(Of Action(Of TMocked)))
+  nameWithType: ScenarioMoqExtensions.WithMock<TScenarioBuilder, TMocked>(TScenarioBuilder, MockBehavior, Nullable<Action<TMocked>>)
+  nameWithType.vb: ScenarioMoqExtensions.WithMock(Of TScenarioBuilder, TMocked)(TScenarioBuilder, MockBehavior, Nullable(Of Action(Of TMocked)))
+- uid: Scenario.Moq.ScenarioMoqExtensions.WithMock``2(``0,MockBehavior,System.Nullable{Action{``1}},System.Object[])
+  name: WithMock<TScenarioBuilder, TMocked>(TScenarioBuilder, MockBehavior, Nullable<Action<TMocked>>, Object[])
+  href: api/Scenario.Moq.ScenarioMoqExtensions.html#Scenario_Moq_ScenarioMoqExtensions_WithMock__2___0_MockBehavior_System_Nullable_Action___1___System_Object___
+  commentId: M:Scenario.Moq.ScenarioMoqExtensions.WithMock``2(``0,MockBehavior,System.Nullable{Action{``1}},System.Object[])
+  name.vb: WithMock(Of TScenarioBuilder, TMocked)(TScenarioBuilder, MockBehavior, Nullable(Of Action(Of TMocked)), Object())
+  fullName: Scenario.Moq.ScenarioMoqExtensions.WithMock<TScenarioBuilder, TMocked>(TScenarioBuilder, MockBehavior, System.Nullable<Action<TMocked>>, System.Object[])
+  fullName.vb: Scenario.Moq.ScenarioMoqExtensions.WithMock(Of TScenarioBuilder, TMocked)(TScenarioBuilder, MockBehavior, System.Nullable(Of Action(Of TMocked)), System.Object())
+  nameWithType: ScenarioMoqExtensions.WithMock<TScenarioBuilder, TMocked>(TScenarioBuilder, MockBehavior, Nullable<Action<TMocked>>, Object[])
+  nameWithType.vb: ScenarioMoqExtensions.WithMock(Of TScenarioBuilder, TMocked)(TScenarioBuilder, MockBehavior, Nullable(Of Action(Of TMocked)), Object())
+- uid: Scenario.Moq.ScenarioMoqExtensions.WithMock``2(``0,System.Nullable{Action{``1}})
+  name: WithMock<TScenarioBuilder, TMocked>(TScenarioBuilder, Nullable<Action<TMocked>>)
+  href: api/Scenario.Moq.ScenarioMoqExtensions.html#Scenario_Moq_ScenarioMoqExtensions_WithMock__2___0_System_Nullable_Action___1___
+  commentId: M:Scenario.Moq.ScenarioMoqExtensions.WithMock``2(``0,System.Nullable{Action{``1}})
+  name.vb: WithMock(Of TScenarioBuilder, TMocked)(TScenarioBuilder, Nullable(Of Action(Of TMocked)))
+  fullName: Scenario.Moq.ScenarioMoqExtensions.WithMock<TScenarioBuilder, TMocked>(TScenarioBuilder, System.Nullable<Action<TMocked>>)
+  fullName.vb: Scenario.Moq.ScenarioMoqExtensions.WithMock(Of TScenarioBuilder, TMocked)(TScenarioBuilder, System.Nullable(Of Action(Of TMocked)))
+  nameWithType: ScenarioMoqExtensions.WithMock<TScenarioBuilder, TMocked>(TScenarioBuilder, Nullable<Action<TMocked>>)
+  nameWithType.vb: ScenarioMoqExtensions.WithMock(Of TScenarioBuilder, TMocked)(TScenarioBuilder, Nullable(Of Action(Of TMocked)))
+- uid: Scenario.Moq.ScenarioMoqExtensions.WithMock``2(``0,System.Nullable{Action{``1}},System.Object[])
+  name: WithMock<TScenarioBuilder, TMocked>(TScenarioBuilder, Nullable<Action<TMocked>>, Object[])
+  href: api/Scenario.Moq.ScenarioMoqExtensions.html#Scenario_Moq_ScenarioMoqExtensions_WithMock__2___0_System_Nullable_Action___1___System_Object___
+  commentId: M:Scenario.Moq.ScenarioMoqExtensions.WithMock``2(``0,System.Nullable{Action{``1}},System.Object[])
+  name.vb: WithMock(Of TScenarioBuilder, TMocked)(TScenarioBuilder, Nullable(Of Action(Of TMocked)), Object())
+  fullName: Scenario.Moq.ScenarioMoqExtensions.WithMock<TScenarioBuilder, TMocked>(TScenarioBuilder, System.Nullable<Action<TMocked>>, System.Object[])
+  fullName.vb: Scenario.Moq.ScenarioMoqExtensions.WithMock(Of TScenarioBuilder, TMocked)(TScenarioBuilder, System.Nullable(Of Action(Of TMocked)), System.Object())
+  nameWithType: ScenarioMoqExtensions.WithMock<TScenarioBuilder, TMocked>(TScenarioBuilder, Nullable<Action<TMocked>>, Object[])
+  nameWithType.vb: ScenarioMoqExtensions.WithMock(Of TScenarioBuilder, TMocked)(TScenarioBuilder, Nullable(Of Action(Of TMocked)), Object())
+- uid: Scenario.Moq.Tests
+  name: Scenario.Moq.Tests
+  href: api/Scenario.Moq.Tests.html
+  commentId: N:Scenario.Moq.Tests
+  fullName: Scenario.Moq.Tests
+  nameWithType: Scenario.Moq.Tests
+- uid: Scenario.Moq.Tests.BasicMockTests
+  name: BasicMockTests
+  href: api/Scenario.Moq.Tests.BasicMockTests.html
+  commentId: T:Scenario.Moq.Tests.BasicMockTests
+  fullName: Scenario.Moq.Tests.BasicMockTests
+  nameWithType: BasicMockTests
+- uid: Scenario.Moq.Tests.BasicMockTests.MockResourcesCanBeMocked
+  name: MockResourcesCanBeMocked()
+  href: api/Scenario.Moq.Tests.BasicMockTests.html#Scenario_Moq_Tests_BasicMockTests_MockResourcesCanBeMocked
+  commentId: M:Scenario.Moq.Tests.BasicMockTests.MockResourcesCanBeMocked
+  fullName: Scenario.Moq.Tests.BasicMockTests.MockResourcesCanBeMocked()
+  nameWithType: BasicMockTests.MockResourcesCanBeMocked()
+- uid: Scenario.Moq.Tests.BasicMockTests.MockResourcesCanBeMocked*
+  name: MockResourcesCanBeMocked
+  href: api/Scenario.Moq.Tests.BasicMockTests.html#Scenario_Moq_Tests_BasicMockTests_MockResourcesCanBeMocked_
+  commentId: Overload:Scenario.Moq.Tests.BasicMockTests.MockResourcesCanBeMocked
+  isSpec: "True"
+  fullName: Scenario.Moq.Tests.BasicMockTests.MockResourcesCanBeMocked
+  nameWithType: BasicMockTests.MockResourcesCanBeMocked
+- uid: Scenario.Scenario
+  name: Scenario
+  href: api/Scenario.Scenario.html
+  commentId: T:Scenario.Scenario
+  fullName: Scenario.Scenario
+  nameWithType: Scenario
+- uid: Scenario.Scenario.CreateScope
+  name: CreateScope()
+  href: api/Scenario.Scenario.html#Scenario_Scenario_CreateScope
+  commentId: M:Scenario.Scenario.CreateScope
+  fullName: Scenario.Scenario.CreateScope()
+  nameWithType: Scenario.CreateScope()
+- uid: Scenario.Scenario.CreateScope*
+  name: CreateScope
+  href: api/Scenario.Scenario.html#Scenario_Scenario_CreateScope_
+  commentId: Overload:Scenario.Scenario.CreateScope
+  isSpec: "True"
+  fullName: Scenario.Scenario.CreateScope
+  nameWithType: Scenario.CreateScope
+- uid: Scenario.Scenario.ResourceProvider
+  name: ResourceProvider
+  href: api/Scenario.Scenario.html#Scenario_Scenario_ResourceProvider
+  commentId: P:Scenario.Scenario.ResourceProvider
+  fullName: Scenario.Scenario.ResourceProvider
+  nameWithType: Scenario.ResourceProvider
+- uid: Scenario.Scenario.ResourceProvider*
+  name: ResourceProvider
+  href: api/Scenario.Scenario.html#Scenario_Scenario_ResourceProvider_
+  commentId: Overload:Scenario.Scenario.ResourceProvider
+  isSpec: "True"
+  fullName: Scenario.Scenario.ResourceProvider
+  nameWithType: Scenario.ResourceProvider
+- uid: Scenario.Scenario.ServiceProvider
+  name: ServiceProvider
+  href: api/Scenario.Scenario.html#Scenario_Scenario_ServiceProvider
+  commentId: P:Scenario.Scenario.ServiceProvider
+  fullName: Scenario.Scenario.ServiceProvider
+  nameWithType: Scenario.ServiceProvider
+- uid: Scenario.Scenario.ServiceProvider*
+  name: ServiceProvider
+  href: api/Scenario.Scenario.html#Scenario_Scenario_ServiceProvider_
+  commentId: Overload:Scenario.Scenario.ServiceProvider
+  isSpec: "True"
+  fullName: Scenario.Scenario.ServiceProvider
+  nameWithType: Scenario.ServiceProvider
+- uid: Scenario.ScenarioBuilder
+  name: ScenarioBuilder
+  href: api/Scenario.ScenarioBuilder.html
+  commentId: T:Scenario.ScenarioBuilder
+  fullName: Scenario.ScenarioBuilder
+  nameWithType: ScenarioBuilder
+- uid: Scenario.ScenarioBuilder.#ctor
+  name: ScenarioBuilder()
+  href: api/Scenario.ScenarioBuilder.html#Scenario_ScenarioBuilder__ctor
+  commentId: M:Scenario.ScenarioBuilder.#ctor
+  fullName: Scenario.ScenarioBuilder.ScenarioBuilder()
+  nameWithType: ScenarioBuilder.ScenarioBuilder()
+- uid: Scenario.ScenarioBuilder.#ctor(IServiceCollection)
+  name: ScenarioBuilder(IServiceCollection)
+  href: api/Scenario.ScenarioBuilder.html#Scenario_ScenarioBuilder__ctor_IServiceCollection_
+  commentId: M:Scenario.ScenarioBuilder.#ctor(IServiceCollection)
+  fullName: Scenario.ScenarioBuilder.ScenarioBuilder(IServiceCollection)
+  nameWithType: ScenarioBuilder.ScenarioBuilder(IServiceCollection)
+- uid: Scenario.ScenarioBuilder.#ctor*
+  name: ScenarioBuilder
+  href: api/Scenario.ScenarioBuilder.html#Scenario_ScenarioBuilder__ctor_
+  commentId: Overload:Scenario.ScenarioBuilder.#ctor
+  isSpec: "True"
+  fullName: Scenario.ScenarioBuilder.ScenarioBuilder
+  nameWithType: ScenarioBuilder.ScenarioBuilder
+- uid: Scenario.ScenarioBuilder.BuildAsync
+  name: BuildAsync()
+  href: api/Scenario.ScenarioBuilder.html#Scenario_ScenarioBuilder_BuildAsync
+  commentId: M:Scenario.ScenarioBuilder.BuildAsync
+  fullName: Scenario.ScenarioBuilder.BuildAsync()
+  nameWithType: ScenarioBuilder.BuildAsync()
+- uid: Scenario.ScenarioBuilder.BuildAsync*
+  name: BuildAsync
+  href: api/Scenario.ScenarioBuilder.html#Scenario_ScenarioBuilder_BuildAsync_
+  commentId: Overload:Scenario.ScenarioBuilder.BuildAsync
+  isSpec: "True"
+  fullName: Scenario.ScenarioBuilder.BuildAsync
+  nameWithType: ScenarioBuilder.BuildAsync
+- uid: Scenario.ScenarioBuilder.Services
+  name: Services
+  href: api/Scenario.ScenarioBuilder.html#Scenario_ScenarioBuilder_Services
+  commentId: P:Scenario.ScenarioBuilder.Services
+  fullName: Scenario.ScenarioBuilder.Services
+  nameWithType: ScenarioBuilder.Services
+- uid: Scenario.ScenarioBuilder.Services*
+  name: Services
+  href: api/Scenario.ScenarioBuilder.html#Scenario_ScenarioBuilder_Services_
+  commentId: Overload:Scenario.ScenarioBuilder.Services
+  isSpec: "True"
+  fullName: Scenario.ScenarioBuilder.Services
+  nameWithType: ScenarioBuilder.Services
+- uid: Scenario.ScenarioBuilder.Use(Action{IServiceCollection})
+  name: Use(Action<IServiceCollection>)
+  href: api/Scenario.ScenarioBuilder.html#Scenario_ScenarioBuilder_Use_Action_IServiceCollection__
+  commentId: M:Scenario.ScenarioBuilder.Use(Action{IServiceCollection})
+  name.vb: Use(Action(Of IServiceCollection))
+  fullName: Scenario.ScenarioBuilder.Use(Action<IServiceCollection>)
+  fullName.vb: Scenario.ScenarioBuilder.Use(Action(Of IServiceCollection))
+  nameWithType: ScenarioBuilder.Use(Action<IServiceCollection>)
+  nameWithType.vb: ScenarioBuilder.Use(Action(Of IServiceCollection))
+- uid: Scenario.ScenarioBuilder.Use*
+  name: Use
+  href: api/Scenario.ScenarioBuilder.html#Scenario_ScenarioBuilder_Use_
+  commentId: Overload:Scenario.ScenarioBuilder.Use
+  isSpec: "True"
+  fullName: Scenario.ScenarioBuilder.Use
+  nameWithType: ScenarioBuilder.Use
+- uid: Scenario.ScenarioBuilder.With(Func{IServiceScope,Task{System.Nullable{System.Object}}},System.Nullable{Action{System.Nullable{System.Object}}})
+  name: With(Func<IServiceScope, Task<Nullable<Object>>>, Nullable<Action<Nullable<Object>>>)
+  href: api/Scenario.ScenarioBuilder.html#Scenario_ScenarioBuilder_With_Func_IServiceScope_Task_System_Nullable_System_Object____System_Nullable_Action_System_Nullable_System_Object____
+  commentId: M:Scenario.ScenarioBuilder.With(Func{IServiceScope,Task{System.Nullable{System.Object}}},System.Nullable{Action{System.Nullable{System.Object}}})
+  name.vb: With(Func(Of IServiceScope, Task(Of Nullable(Of Object))), Nullable(Of Action(Of Nullable(Of Object))))
+  fullName: Scenario.ScenarioBuilder.With(Func<IServiceScope, Task<System.Nullable<System.Object>>>, System.Nullable<Action<System.Nullable<System.Object>>>)
+  fullName.vb: Scenario.ScenarioBuilder.With(Func(Of IServiceScope, Task(Of System.Nullable(Of System.Object))), System.Nullable(Of Action(Of System.Nullable(Of System.Object))))
+  nameWithType: ScenarioBuilder.With(Func<IServiceScope, Task<Nullable<Object>>>, Nullable<Action<Nullable<Object>>>)
+  nameWithType.vb: ScenarioBuilder.With(Func(Of IServiceScope, Task(Of Nullable(Of Object))), Nullable(Of Action(Of Nullable(Of Object))))
+- uid: Scenario.ScenarioBuilder.With(Func{IServiceScope,Task})
+  name: With(Func<IServiceScope, Task>)
+  href: api/Scenario.ScenarioBuilder.html#Scenario_ScenarioBuilder_With_Func_IServiceScope_Task__
+  commentId: M:Scenario.ScenarioBuilder.With(Func{IServiceScope,Task})
+  name.vb: With(Func(Of IServiceScope, Task))
+  fullName: Scenario.ScenarioBuilder.With(Func<IServiceScope, Task>)
+  fullName.vb: Scenario.ScenarioBuilder.With(Func(Of IServiceScope, Task))
+  nameWithType: ScenarioBuilder.With(Func<IServiceScope, Task>)
+  nameWithType.vb: ScenarioBuilder.With(Func(Of IServiceScope, Task))
+- uid: Scenario.ScenarioBuilder.With*
+  name: With
+  href: api/Scenario.ScenarioBuilder.html#Scenario_ScenarioBuilder_With_
+  commentId: Overload:Scenario.ScenarioBuilder.With
+  isSpec: "True"
+  fullName: Scenario.ScenarioBuilder.With
+  nameWithType: ScenarioBuilder.With
+- uid: Scenario.ScenarioBuilderExtensions
+  name: ScenarioBuilderExtensions
+  href: api/Scenario.ScenarioBuilderExtensions.html
+  commentId: T:Scenario.ScenarioBuilderExtensions
+  fullName: Scenario.ScenarioBuilderExtensions
+  nameWithType: ScenarioBuilderExtensions
+- uid: Scenario.ScenarioBuilderExtensions.BuildAsync*
+  name: BuildAsync
+  href: api/Scenario.ScenarioBuilderExtensions.html#Scenario_ScenarioBuilderExtensions_BuildAsync_
+  commentId: Overload:Scenario.ScenarioBuilderExtensions.BuildAsync
+  isSpec: "True"
+  fullName: Scenario.ScenarioBuilderExtensions.BuildAsync
+  nameWithType: ScenarioBuilderExtensions.BuildAsync
+- uid: Scenario.ScenarioBuilderExtensions.BuildAsync``2(Scenario.IScenarioBuilderResourceDescription{``0,``1})
+  name: BuildAsync<TScenarioBuilder, TResource>(IScenarioBuilderResourceDescription<TScenarioBuilder, TResource>)
+  href: api/Scenario.ScenarioBuilderExtensions.html#Scenario_ScenarioBuilderExtensions_BuildAsync__2_Scenario_IScenarioBuilderResourceDescription___0___1__
+  commentId: M:Scenario.ScenarioBuilderExtensions.BuildAsync``2(Scenario.IScenarioBuilderResourceDescription{``0,``1})
+  name.vb: BuildAsync(Of TScenarioBuilder, TResource)(IScenarioBuilderResourceDescription(Of TScenarioBuilder, TResource))
+  fullName: Scenario.ScenarioBuilderExtensions.BuildAsync<TScenarioBuilder, TResource>(Scenario.IScenarioBuilderResourceDescription<TScenarioBuilder, TResource>)
+  fullName.vb: Scenario.ScenarioBuilderExtensions.BuildAsync(Of TScenarioBuilder, TResource)(Scenario.IScenarioBuilderResourceDescription(Of TScenarioBuilder, TResource))
+  nameWithType: ScenarioBuilderExtensions.BuildAsync<TScenarioBuilder, TResource>(IScenarioBuilderResourceDescription<TScenarioBuilder, TResource>)
+  nameWithType.vb: ScenarioBuilderExtensions.BuildAsync(Of TScenarioBuilder, TResource)(IScenarioBuilderResourceDescription(Of TScenarioBuilder, TResource))
+- uid: Scenario.SourceGenerator
+  name: Scenario.SourceGenerator
+  href: api/Scenario.SourceGenerator.html
+  commentId: N:Scenario.SourceGenerator
+  fullName: Scenario.SourceGenerator
+  nameWithType: Scenario.SourceGenerator
+- uid: Scenario.SourceGenerator.ScenarioExtensionsGenerator
+  name: ScenarioExtensionsGenerator
+  href: api/Scenario.SourceGenerator.ScenarioExtensionsGenerator.html
+  commentId: T:Scenario.SourceGenerator.ScenarioExtensionsGenerator
+  fullName: Scenario.SourceGenerator.ScenarioExtensionsGenerator
+  nameWithType: ScenarioExtensionsGenerator
+- uid: Scenario.SourceGenerator.ScenarioExtensionsGenerator.Execute(GeneratorExecutionContext)
+  name: Execute(GeneratorExecutionContext)
+  href: api/Scenario.SourceGenerator.ScenarioExtensionsGenerator.html#Scenario_SourceGenerator_ScenarioExtensionsGenerator_Execute_GeneratorExecutionContext_
+  commentId: M:Scenario.SourceGenerator.ScenarioExtensionsGenerator.Execute(GeneratorExecutionContext)
+  fullName: Scenario.SourceGenerator.ScenarioExtensionsGenerator.Execute(GeneratorExecutionContext)
+  nameWithType: ScenarioExtensionsGenerator.Execute(GeneratorExecutionContext)
+- uid: Scenario.SourceGenerator.ScenarioExtensionsGenerator.Execute*
+  name: Execute
+  href: api/Scenario.SourceGenerator.ScenarioExtensionsGenerator.html#Scenario_SourceGenerator_ScenarioExtensionsGenerator_Execute_
+  commentId: Overload:Scenario.SourceGenerator.ScenarioExtensionsGenerator.Execute
+  isSpec: "True"
+  fullName: Scenario.SourceGenerator.ScenarioExtensionsGenerator.Execute
+  nameWithType: ScenarioExtensionsGenerator.Execute
+- uid: Scenario.SourceGenerator.ScenarioExtensionsGenerator.Initialize(GeneratorInitializationContext)
+  name: Initialize(GeneratorInitializationContext)
+  href: api/Scenario.SourceGenerator.ScenarioExtensionsGenerator.html#Scenario_SourceGenerator_ScenarioExtensionsGenerator_Initialize_GeneratorInitializationContext_
+  commentId: M:Scenario.SourceGenerator.ScenarioExtensionsGenerator.Initialize(GeneratorInitializationContext)
+  fullName: Scenario.SourceGenerator.ScenarioExtensionsGenerator.Initialize(GeneratorInitializationContext)
+  nameWithType: ScenarioExtensionsGenerator.Initialize(GeneratorInitializationContext)
+- uid: Scenario.SourceGenerator.ScenarioExtensionsGenerator.Initialize*
+  name: Initialize
+  href: api/Scenario.SourceGenerator.ScenarioExtensionsGenerator.html#Scenario_SourceGenerator_ScenarioExtensionsGenerator_Initialize_
+  commentId: Overload:Scenario.SourceGenerator.ScenarioExtensionsGenerator.Initialize
+  isSpec: "True"
+  fullName: Scenario.SourceGenerator.ScenarioExtensionsGenerator.Initialize
+  nameWithType: ScenarioExtensionsGenerator.Initialize
+- uid: Scenario.SourceGenerator.Tests
+  name: Scenario.SourceGenerator.Tests
+  href: api/Scenario.SourceGenerator.Tests.html
+  commentId: N:Scenario.SourceGenerator.Tests
+  fullName: Scenario.SourceGenerator.Tests
+  nameWithType: Scenario.SourceGenerator.Tests
+- uid: Scenario.SourceGenerator.Tests.GeneratorTests
+  name: GeneratorTests
+  href: api/Scenario.SourceGenerator.Tests.GeneratorTests.html
+  commentId: T:Scenario.SourceGenerator.Tests.GeneratorTests
+  fullName: Scenario.SourceGenerator.Tests.GeneratorTests
+  nameWithType: GeneratorTests
+- uid: Scenario.SourceGenerator.Tests.GeneratorTests.SimpleGeneratorTest
+  name: SimpleGeneratorTest()
+  href: api/Scenario.SourceGenerator.Tests.GeneratorTests.html#Scenario_SourceGenerator_Tests_GeneratorTests_SimpleGeneratorTest
+  commentId: M:Scenario.SourceGenerator.Tests.GeneratorTests.SimpleGeneratorTest
+  fullName: Scenario.SourceGenerator.Tests.GeneratorTests.SimpleGeneratorTest()
+  nameWithType: GeneratorTests.SimpleGeneratorTest()
+- uid: Scenario.SourceGenerator.Tests.GeneratorTests.SimpleGeneratorTest*
+  name: SimpleGeneratorTest
+  href: api/Scenario.SourceGenerator.Tests.GeneratorTests.html#Scenario_SourceGenerator_Tests_GeneratorTests_SimpleGeneratorTest_
+  commentId: Overload:Scenario.SourceGenerator.Tests.GeneratorTests.SimpleGeneratorTest
+  isSpec: "True"
+  fullName: Scenario.SourceGenerator.Tests.GeneratorTests.SimpleGeneratorTest
+  nameWithType: GeneratorTests.SimpleGeneratorTest

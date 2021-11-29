@@ -1,0 +1,293 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Source Generation / Making Scenario nicer to work with </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Source Generation / Making Scenario nicer to work with ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="source-generation--making-scenario-nicer-to-work-with">Source Generation / Making Scenario nicer to work with</h1>
+
+<p>v0.2 introduced a new feature that makes working with Scenario a lot nicer on the finger tips: Source generation.</p>
+<p>Before v0.2, if you wanted to write builder extensions, they would look something like:</p>
+<pre><code class="lang-c#">public static class ScenarioUserExtensions
+{
+    public static TScenarioBuilder UseUsers&lt;TScenarioBuilder&gt;(this TScenarioBuilder builder)
+        where TScenarioBuilder : IScenarioBuilder
+        =&gt; (TScenarioBuilder) builder.Use(services =&gt; services.AddTransient&lt;IUserService, UserService&gt;());
+    
+    public static TScenarioBuilder WithUser&lt;TScenarioBuilder&gt;(this TScenarioBuilder builder, Action&lt;User&gt;? resultCallback = null)
+        where TScenarioBuilder : IScenarioBuilder
+        =&gt; (TScenarioBuilder) builder.With(
+                async scope =&gt; await scope.ServiceProvider.GetRequiredService&lt;IUserService&gt;().CreateUserAsync(),
+                u =&gt; user = (User)u);
+}
+</code></pre>
+<p>Now, with the <code>Scenario.SourceGenerator</code> package, you can rewrite them to look like:</p>
+<pre><code class="lang-c#">public static class ScenarioUserExtensions
+{
+    [ScenarioDependency]
+    public static void UseUsers(IServiceCollection services)
+        =&gt; services.AddTransient&lt;IUserService, UserService&gt;();
+
+    [ScenarioResource]
+    public static async Task&lt;User&gt; WithUser(IServiceScope scope)
+        =&gt; await scope.ServiceProvider.GetRequiredService&lt;IUserService&gt;().CreateUserAsync();
+}
+</code></pre>
+<p>N.B. this only works with C#.</p>
+<h2 id="getting-started">Getting started</h2>
+<p>Install Scenario.SourceGenerator from <a href="https://www.nuget.org/packages/Scenario.SourceGenerator">Nuget</a>:</p>
+<pre><code>dotnet add package Scenario.SourceGenerator
+</code></pre>
+<p>which will add itself as a code analyzer to your project.</p>
+<h2 id="how-it-works">How it works</h2>
+<p>The source generator analyzes your C# source code &amp; looks for public static methods with one of the <code>ScenarioDependency</code> or <code>ScenarioResource</code> attributes. These attributes are added to your project's source imperatively by the source generator.</p>
+<p>Lets go into more details about how the source generator analyzes methods with each attribute</p>
+<p>There are a few requirements for your method to be a valid extension method:</p>
+<ul>
+<li>It must be public and static.</li>
+<li>If it is a Dependency, it must return void.</li>
+<li>If it is a Dependency, it must always accept an <code>IServiceCollection</code> as its first parameter, even if it does not utilize it.</li>
+<li>If it is a Resource, it must return a <code>Task</code> or <code>Task&lt;T&gt;</code>.</li>
+<li>If it is a Resource, it must always accept an <code>IServiceScope</code> as its first parameter, even if it does not utilize it.</li>
+<li>It must not accept a <code>ref</code> or <code>out</code> parameter.</li>
+<li>It must not have a type generic parameter named <code>__TScenarioBuilder</code>
+<ul>
+<li>This type parameter is used by the generated C# code</li>
+</ul>
+</li>
+<li>It must not have a function parameter named <code>__scenarioBuilder</code>, <code>__services</code>, or <code>__scope</code>
+<ul>
+<li>These parameter names are used by the generated C# code</li>
+</ul>
+</li>
+</ul>
+<p>If each of these requirements are met, the source generator will generate a valid extension method for ScenarioBuilder that invokes your static function. On top of these requirements are some allowances for your function:</p>
+<ul>
+<li>It may accept any additional non-ref and non-out parameters.</li>
+<li>It may accept a params parameter.</li>
+<li>It may accept default values for those parameters.</li>
+<li>It may accept any additional generic type arguments.</li>
+<li>It may have additional generic type constraints.</li>
+<li>It may have no body - such as an <code>extern</code> or <code>partial</code> function.</li>
+</ul>
+<p>The source generator has considerations and logic for each of these requirements and allowances. If one is not listed here, it may not be directly supported - please post an issue if that is the case and you would like a consideration for such a case.</p>
+<h3 id="scenariodependencyattribute">ScenarioDependencyAttribute</h3>
+<p>This attribute signals a method which may add a service to the service collection, or do any synchronous action which does not depend on any service within the scenario thus far. Analogous to a <code>Use</code> method, i.e <code>UseInMemoryS3</code>.</p>
+<p>For example, here is an example of a dependency method which adds a localhost Postgres EFCore DbContext to the service collection, with a parameter accepting the name of the migrations assembly:</p>
+<pre><code class="lang-c#">public static class ScenarioExtensions
+{
+    [ScenarioDependency]
+    public static void UseNpgsql&lt;TDbContext&gt;(IServiceCollection services, string migrationsAssembly = &quot;MyLib.Migrations&quot;)
+        where TDbContext : DbContext
+        =&gt; services.AddDbContext&lt;TDbContext&gt;(options =&gt; 
+            options.UseNpgsql(&quot;host=localhost;db=postgres;user=postgres;pass=postgres&quot;, x =&gt; x.MigrationsAssembly(migrationsAssembly)));
+}
+</code></pre>
+<p>Which will trigger the source generator to generate an extension method like this:</p>
+<pre><code class="lang-c#">public static __TScenarioBuilder UseNpgsql&lt;__TScenarioBuilder, TDbContext&gt;(this __TScenarioBuilder __scenarioBuilder,
+                                                                           string migrationsAssembly = &quot;MyLib.Migrations&quot;)
+    where __TScenarioBuilder : IScenarioBuilder
+    where TDbContext : DbContext
+    =&gt; (__TScenarioBuilder) __scenarioBuilder.Use(services =&gt; ScenarioExtensions.UseNpgsql&lt;TDbContext&gt;(services, migrationsAssembly));
+</code></pre>
+<p>Which you may use like so:</p>
+<pre><code class="lang-c#">var scenario = await new ScenarioBuilder()
+                .UseNpgsql&lt;ScenarioBuilder, MyDbContext&gt;()
+                .BuildAsync();
+
+using var scope = scenario.CreateScope();
+var db = scope.ServiceProvider.GetRequiredService&lt;MyDbContext&gt;();
+</code></pre>
+<h3 id="scenarioresourceattribute">ScenarioResourceAttribute</h3>
+<p>This attribute signals a method which will do some processing which may depends on a service within the scenario's service collection. Analogous to a <code>With</code> method, i.e <code>WithUser</code>.</p>
+<p>For example, here is an example of a resource method which queries the service provider for an IUserService, then it creates <code>n</code> users.</p>
+<pre><code class="lang-c#">public static class ScenarioExtensions
+{
+    [ScenarioResource]
+    public static async Task&lt;IEnumerable&lt;User&gt;&gt; WithUsers(IServiceScope scope, int count = 1)
+        =&gt; await Task.WhenAll(Enumerable.Range(0, count).Select(_ =&gt; scope.ServiceProvider.GetRequiredService&lt;IUserService&gt;.CreateUserAsync()));
+}
+</code></pre>
+<p>Which will trigger the source generator to generate an extension method like this:</p>
+<pre><code class="lang-c#">public static __TScenarioBuilder WithUsers&lt;__TScenarioBuilder&gt;(this __TScenarioBuilder __scenarioBuilder,
+                                                               int count = 1,
+                                                               Action&lt;IEnumerable&lt;User&gt;&gt;? resultCallback = null)
+    where __TScenarioBuilder : IScenarioBuilder
+    =&gt; (__TScenarioBuilder) __scenarioBuilder.With(scope =&gt; ScenarioExtensions.WithUsers(scope, count), u =&gt; resultCallback?.Invoke((IEnumerable&lt;User&gt;)u));
+</code></pre>
+<p>Which you may use like so:</p>
+<pre><code class="lang-c#">IEnumerable&lt;User&gt; users = null!;
+var scenario = await new ScenarioBuilder()
+                .UseUserServices()
+                .WithUsers(10, u =&gt; users = u);
+                .BuildAsync();
+</code></pre>
+<h3 id="changing-the-extensions-name">Changing the extension's name</h3>
+<p>Each of the aforementioned attributes has an <code>ExtensionName</code> property that will override the name of the attribute, like so:</p>
+<pre><code class="lang-c#">[ScenarioDependency(ExtensionName = &quot;UseThing&quot;)]
+public static void ConfigureThing(IServiceCollection services)
+    =&gt; // ...
+</code></pre>
+<p>which you can use like so:</p>
+<pre><code class="lang-c#">new ScenarioBuilder()
+    .UseThing()
+</code></pre>
+<h3 id="generating-a-non-tscenariobuilder-generic-version-of-the-extension">Generating a non-TScenarioBuilder-generic version of the extension</h3>
+<p>Lets take this sample from earlier:</p>
+<pre><code class="lang-c#">var scenario = await new ScenarioBuilder()
+                .UseNpgsql&lt;ScenarioBuilder, MyDbContext&gt;()
+                .BuildAsync();
+</code></pre>
+<p>C# doesn't support partial type inference in generic type parameters, so you have to provide a type for every type parameter, including the <code>TScenarioBuilder</code> parameter.</p>
+<p>To get around this, we can create a non-generic form of the extension. We can trigger the source generator to generate both the normal generic form as well as this form of the extension, with the <code>CreateNonGenericExtension</code> flag:</p>
+<pre><code class="lang-c#">[ScenarioDependency(CreateNonGenericExtension = true)]
+public static void UseNpgsql&lt;TDbContext&gt;(IServiceCollection services, string migrationsAssembly = &quot;MyLib.Migrations&quot;)
+    // ...
+</code></pre>
+<p>which will generate two extension methods, one in the generic form and one in the not-generic form:</p>
+<pre><code class="lang-c#">public static __TScenarioBuilder UseNpgsql&lt;__TScenarioBuilder, TDbContext&gt;(this __TScenarioBuilder __scenarioBuilder,
+                                                                           string migrationsAssembly = &quot;MyLib.Migrations&quot;)
+    where __TScenarioBuilder : IScenarioBuilder
+    where TDbContext : DbContext
+    =&gt; (__TScenarioBuilder) __scenarioBuilder.Use(services =&gt; ScenarioExtensions.UseNpgsql&lt;TDbContext&gt;(services, migrationsAssembly));
+
+public static IScenarioBuilder UseNpgsql&lt;TDbContext&gt;(this IScenarioBuilder __scenarioBuilder,
+                                                     string migrationsAssembly = &quot;MyLib.Migrations&quot;)
+    where TDbContext : DbContext
+    =&gt; __scenarioBuilder.Use(services =&gt; ScenarioExtensions.UseNpgsql&lt;TDbContext&gt;(services, migrationsAssembly));
+</code></pre>
+<p>allowing you to drop the first generic parameter:</p>
+<pre><code class="lang-c#">var scenario = await new ScenarioBuilder
+                .UseNpgsql&lt;MyDbContext&gt;()
+                .BuildAsync();
+</code></pre>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/dresswithpockets/Scenario/blob/main//__w/Scenario/Scenario/docfx/articles/source_gen.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="toggle-mode">
+                <div class="icon">
+                  <i aria-hidden="true">☀</i>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="switch-style">
+                  <span class="slider round"></span>
+                </label>
+                <div class="icon">
+                  <i aria-hidden="true">☾</i>
+                </div>
+              </div>
+          
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <h5>In This Article</h5>
+              <div></div>
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <div class="pull-left">
+              
+              <span>Generated by <strong>DocFX</strong></span>
+            </div>
+            <div class="toggle-mode pull-right visible-sm visible-xs">
+              <div class="icon">
+                <i aria-hidden="true">☀</i>
+              </div>
+              <label class="switch">
+                <input type="checkbox" id="switch-style-m">
+                <span class="slider round"></span>
+              </label>
+              <div class="icon">
+                <i aria-hidden="true">☾</i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript" src="../styles/toggle-theme.js"></script>
+      </footer>    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

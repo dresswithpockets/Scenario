@@ -1,0 +1,464 @@
+{
+  "homepages": [],
+  "source_base_path": "/__w/Scenario/Scenario/docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scenario.BaseResourceDescription-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scenario.BaseResourceDescription-2.html",
+          "hash": "lSGiBMk4lVDZt+UHjFE5PsHJHvep1WTTAzITXLbfEAc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scenario.BaseSubResourceDescription-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scenario.BaseSubResourceDescription-3.html",
+          "hash": "LwCNSiGNdvHsxLt1nMYFDqO1OMS+xel0ANrOGa5CRrc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scenario.EFCore.IConnectionProvider-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scenario.EFCore.IConnectionProvider-1.html",
+          "hash": "1iAoqk05I8N6zRWSpLkO/YUXmjOfDLzhzRQ+Ay1LzYE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scenario.EFCore.ScenarioEfCoreExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scenario.EFCore.ScenarioEfCoreExtensions.html",
+          "hash": "AcpzGImS8/6XY6GozKOdTXGvupcmB8W0LhqYFXWMwBs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scenario.EFCore.SqliteConnectionProvider-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scenario.EFCore.SqliteConnectionProvider-1.html",
+          "hash": "rONH6+4m77z9PqvZsi6e3lb1MN+t32IWz4/eQeErHKA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scenario.EFCore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scenario.EFCore.html",
+          "hash": "VAOZb+gqzbG2wByDCfIJ/U60BVmCKBWopqBykQfNHuw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scenario.FakeS3.ScenarioFakeS3Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scenario.FakeS3.ScenarioFakeS3Extensions.html",
+          "hash": "L1gmRgHIXNtZkznn1xomPtk4DXNy1r82sVvRAutKh58="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scenario.FakeS3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scenario.FakeS3.html",
+          "hash": "cOVhxUMsRIA+N3ozzge4IpLFAi7ji08Kf7puSd79jUA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scenario.IScenario.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scenario.IScenario.html",
+          "hash": "KyzoBDs9HaL0JPwPN4pWvNP0EjscCdfyLTVPPQodx6U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scenario.IScenarioBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scenario.IScenarioBuilder.html",
+          "hash": "LeOsKEN4i/aiDWu1qKRXvb7aIujXdK3TfECCVMais88="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scenario.IScenarioBuilderResourceDescription-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scenario.IScenarioBuilderResourceDescription-2.html",
+          "hash": "pHpuI4xLhgRs38hNjSGtRm6+hMc6S6aZOp278iMjG7k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scenario.IScenarioBuilderSubResourceDescription-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scenario.IScenarioBuilderSubResourceDescription-3.html",
+          "hash": "mIGZovp5gVMXLOEnkm4ZbNeBeQ4N8ab5k3IJN4P2624="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scenario.Moq.MockedResourceDescription-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scenario.Moq.MockedResourceDescription-2.html",
+          "hash": "eDAkD4gluHqv05zHyGD+jtaqP7acal4Xi/j8SxFiEkY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scenario.Moq.MockedSubResourceDescription-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scenario.Moq.MockedSubResourceDescription-3.html",
+          "hash": "a49N4OuzCKE9zEEWKUQZmeQ53fp5qTRhFkU3AAZXv0Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scenario.Moq.ScenarioMoqExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scenario.Moq.ScenarioMoqExtensions.html",
+          "hash": "ewmErACZnMWvL7PRADBA2JPT+kbKtYcOmOpeUv8Qqmk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scenario.Moq.Tests.BasicMockTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scenario.Moq.Tests.BasicMockTests.html",
+          "hash": "tO1r7f7EVroe67nzWd0dv5XR2BwR7xZws6zQX7YDR98="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scenario.Moq.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scenario.Moq.Tests.html",
+          "hash": "VLI6XRA8MeBnW8j7hkN1XI2fco/k6Is8WvgRU4dYwBU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scenario.Moq.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scenario.Moq.html",
+          "hash": "8LlQU0K/zfOXHGEFDyn76oFKfQIsf1YU2dPNHRsFK1c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scenario.Scenario.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scenario.Scenario.html",
+          "hash": "XYKXsA8FEVxtC1v+DBw/AU5dpK1FH2mlL0ciG0Hnzk8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scenario.ScenarioBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scenario.ScenarioBuilder.html",
+          "hash": "cY7Ri9+D6bqRrQMD+wSQyajLYynk+2F26Hn8k+tSDuM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scenario.ScenarioBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scenario.ScenarioBuilderExtensions.html",
+          "hash": "HNUTwGQUlyYkAyVHBBYf//xOB7qSefaLjEiS9j+mbkM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scenario.SourceGenerator.ScenarioExtensionsGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scenario.SourceGenerator.ScenarioExtensionsGenerator.html",
+          "hash": "pUGr6eiGPW5Ux9XxlruRNaM6e8UrRY0lC7Yy9nXEH6Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scenario.SourceGenerator.Tests.GeneratorTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scenario.SourceGenerator.Tests.GeneratorTests.html",
+          "hash": "7aAQSrY/cbkhlnkzxXH/tPQ4wJHZ3iQT+Sfu5As/aPo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scenario.SourceGenerator.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scenario.SourceGenerator.Tests.html",
+          "hash": "yqKHjFXrXRojRXld29tgVbvC9A1sPBkVprud4gQQ8l8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scenario.SourceGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scenario.SourceGenerator.html",
+          "hash": "+hg+O9Xv7OygAclLtwSASiR1gECr5XPlHqcVisq4P4g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scenario.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scenario.html",
+          "hash": "D4sAbr7+Celh8klBljZU2ovDKQMA95CXV424ZKgwyH0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "7KxOSdtA1J1LJ5rv3T6Dk3EbYgQTxpVjCpBfZp6seq4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "8i00niOoLGCSh7Tx3OpaTkSaaAeF4+5x2fFktlMN4hU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/quickstart.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/quickstart.html",
+          "hash": "RVeKczQRJslJ8jAl/M1U/5koD7auXqdY5ADaYmxjxzI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/source_gen.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/source_gen.html",
+          "hash": "l/RWZv5Q7fb2QmFlWTYBTlYd/e9IGjpwHqek4LtG2qA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "kg8JVuDTL4/DJOuC3KUYrK/mKl5qA91jVof8QYKojok="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/working_with_scenario.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/working_with_scenario.html",
+          "hash": "bZm2gpbnQ8RhwwOyo+knC83rdx9M18VDXXcB3cuzL84="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "zHG8d1gmP+8f1NLBjzYbje5OcVLwpDwcZye3axSF4ik="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "JFslDz0lTQLvfGSeJ25u4EnofwWQieW+JH8nXrYo70s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 5,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 26,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
