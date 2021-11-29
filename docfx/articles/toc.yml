@@ -2,3 +2,5 @@
   href: quickstart.md
 - name: Working With Scenario
   href: working_with_scenario.md
+- name: Source Generation / Making Scenario nicer to work with
+  href: source_gen.md

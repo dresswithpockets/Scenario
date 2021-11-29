@@ -18,7 +18,10 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Scenario\Scenario.csproj" />
+        <ProjectReference Include="..\Scenario.SourceGenerator\Scenario.SourceGenerator.csproj"
+                          OutputItemType="Analyzer"
+                          ReferenceOutputAssembly="false" />
+        <ProjectReference Include="..\Scenario\Scenario.csproj" />
     </ItemGroup>
 
 </Project>

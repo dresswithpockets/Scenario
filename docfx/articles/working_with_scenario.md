@@ -143,7 +143,7 @@ public static class ScenarioUserExtensions
 }
 ```
 
-Thats is quite a bit more verbose; while we make that tradeoff, what we get back is reusability & simplifying our unit tests:
+Thats is quite a bit more verbose ((see how to make it much less verbose here)[source_gen.html]); while we make that tradeoff, what we get back is reusability & simplifying our unit tests:
 
 ```cs
 [Fact]
